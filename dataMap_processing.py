@@ -17,8 +17,8 @@ def load_data_from_folder(folder_path, list1, list2):
                 if 'trace' in transaction_data and 'dataMap' in transaction_data['trace']:
                     fc_num = function_count(transaction_data)
                     gas = get_gas_value(transaction_data)
-                    if filename == '0x48164d3adbab78c2cb9876f6e17f88e321097fcd14cadd57556866e4ef3e185d.json' :
-                        print(fc_num, gas)  # 测试
+                    # if filename == '0x48164d3adbab78c2cb9876f6e17f88e321097fcd14cadd57556866e4ef3e185d.json' :
+                    #     print(fc_num, gas)  # 测试验证
                     list1.append(fc_num)
                     list2.append(gas)
 
@@ -62,10 +62,11 @@ def get_gas_value(transaction_data):
     return -1
 
 
-normal_fc_num = []
-attack_fc_num = []
-normal_gas = []
-attack_gas = []
-load_data_from_folder(attack_data_path, attack_fc_num, attack_gas)
-load_data_from_folder(normal_data_path, normal_fc_num, normal_gas)
-print(attack_fc_num, '\n', normal_fc_num, '\n', attack_gas, '\n', normal_gas)
+# # 测试验证
+# normal_fc_num = []
+# attack_fc_num = []
+# normal_gas = []
+# attack_gas = []
+# load_data_from_folder(attack_data_path, attack_fc_num, attack_gas)
+# load_data_from_folder(normal_data_path, normal_fc_num, normal_gas)
+# print(attack_fc_num, '\n', normal_fc_num, '\n', attack_gas, '\n', normal_gas)
