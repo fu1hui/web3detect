@@ -1,0 +1,397 @@
+{
+    "balance_change": {
+        "balanceChanges": []
+    },
+    "profile": {
+        "basic_info": {
+            "baseFee": "",
+            "blockNumber": 11330689,
+            "callData": "0xf2ad79080000000000000000000000005135b3594e412e953f41926af79dee9a591e32ed00000000000000000000000000000000000000000000000192b7a6064e5fdc00",
+            "debugEnable": true,
+            "errorInfo": "",
+            "eventCount": 1,
+            "feeRecipient": "0x5a0b54d5dc17e0aadc383d2db43b0a0d3e029c4c",
+            "formatValue": "0",
+            "gasLimit": 150000,
+            "gasPrice": "105",
+            "gasUsed": 56145,
+            "intTxnCount": 1,
+            "internalRevert": false,
+            "internalRevertMessage": "",
+            "isContractCreation": false,
+            "isFlashloan": false,
+            "maxFee": "",
+            "nonce": 5619,
+            "overwritedBlockNumber": -1,
+            "priorityFee": "",
+            "receiver": "0xee03e3d55d52a35ee364fce45cd1373e0f53f8d9",
+            "revertMessage": "",
+            "sender": "0xa829304535efd9fad6cba9d41c171362cc0a8ccd",
+            "simulationEnable": true,
+            "sourceTxnHash": "0xff1f82b7f57e66eeed60aa86c7456d8b269fef10a96cb8dd4ab9770752f8aa7c",
+            "status": true,
+            "timestamp": "2020-11-26T00:10:53Z",
+            "transactionFee": "0.005895225",
+            "txnHash": "0xff1f82b7f57e66eeed60aa86c7456d8b269fef10a96cb8dd4ab9770752f8aa7c",
+            "txnIndex": 6,
+            "type": 0,
+            "value": "0"
+        },
+        "fund_flow": [],
+        "token_infos": [
+            {
+                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "decimals": 18
+            },
+            {
+                "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "decimals": 18
+            }
+        ]
+    },
+    "address_label": {
+        "labels": [
+            {
+                "address": "0x0000000000000000000000000000000000000004",
+                "label": "Precompiled"
+            },
+            {
+                "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "label": "Ether"
+            },
+            {
+                "address": "0xee03e3d55d52a35ee364fce45cd1373e0f53f8d9",
+                "label": "Swipe: Staking"
+            },
+            {
+                "address": "0x696769ffebe92730b821992defce3cc0b75b6778",
+                "label": "StakingV3"
+            },
+            {
+                "address": "0x0000000000000000000000000000000000000001",
+                "label": "Precompiled"
+            },
+            {
+                "address": "0x0000000000000000000000000000000000000002",
+                "label": "Precompiled"
+            },
+            {
+                "address": "0x0000000000000000000000000000000000000003",
+                "label": "Precompiled"
+            }
+        ]
+    },
+    "trace": {
+        "accountLabels": null,
+        "dataMap": {
+            "-1": {
+                "invocation": {
+                    "address": "0xa829304535efd9fad6cba9d41c171362cc0a8ccd",
+                    "callData": "",
+                    "decodedMethod": null,
+                    "errorInfo": "",
+                    "fromAddress": "",
+                    "gasUsed": 0,
+                    "id": -1,
+                    "methodDecoded": false,
+                    "operation": "",
+                    "output": "",
+                    "revert": false,
+                    "revertMessage": "",
+                    "selector": "",
+                    "status": false,
+                    "value": ""
+                },
+                "nodeType": 0
+            },
+            "0": {
+                "invocation": {
+                    "address": "0xee03e3d55d52a35ee364fce45cd1373e0f53f8d9",
+                    "callData": "0x0000000000000000000000005135b3594e412e953f41926af79dee9a591e32ed00000000000000000000000000000000000000000000000192b7a6064e5fdc00",
+                    "decodedMethod": {
+                        "callParams": [
+                            {
+                                "name": "toAddress",
+                                "type": "address",
+                                "value": "0x5135b3594e412e953f41926af79dee9a591e32ed"
+                            },
+                            {
+                                "name": "amount",
+                                "type": "uint256",
+                                "value": "29,018,845,270,000,000,000"
+                            }
+                        ],
+                        "constructorArguments": "",
+                        "name": "approveClaim",
+                        "returnParams": [
+                            {
+                                "name": "",
+                                "type": "uint256",
+                                "value": "5,601"
+                            }
+                        ],
+                        "signature": "approveClaim(address,uint256)"
+                    },
+                    "errorInfo": "",
+                    "fromAddress": "0xa829304535efd9fad6cba9d41c171362cc0a8ccd",
+                    "gasUsed": 56145,
+                    "id": 0,
+                    "methodDecoded": true,
+                    "operation": "CALL",
+                    "output": "0x00000000000000000000000000000000000000000000000000000000000015e1",
+                    "revert": false,
+                    "revertMessage": "",
+                    "selector": "0xf2ad7908",
+                    "status": true,
+                    "value": "0"
+                },
+                "nodeType": 0
+            },
+            "1": {
+                "invocation": {
+                    "address": "0x696769ffebe92730b821992defce3cc0b75b6778",
+                    "callData": "0x0000000000000000000000005135b3594e412e953f41926af79dee9a591e32ed00000000000000000000000000000000000000000000000192b7a6064e5fdc00",
+                    "decodedMethod": {
+                        "callParams": [
+                            {
+                                "name": "toAddress",
+                                "type": "address",
+                                "value": "0x5135b3594e412e953f41926af79dee9a591e32ed"
+                            },
+                            {
+                                "name": "amount",
+                                "type": "uint256",
+                                "value": "29,018,845,270,000,000,000"
+                            }
+                        ],
+                        "constructorArguments": "",
+                        "name": "approveClaim",
+                        "returnParams": [
+                            {
+                                "name": "",
+                                "type": "uint256",
+                                "value": "5,601"
+                            }
+                        ],
+                        "signature": "approveClaim(address,uint256)"
+                    },
+                    "errorInfo": "",
+                    "fromAddress": "0xee03e3d55d52a35ee364fce45cd1373e0f53f8d9",
+                    "gasUsed": 32540,
+                    "id": 1,
+                    "methodDecoded": true,
+                    "operation": "DELEGATECALL",
+                    "output": "0x00000000000000000000000000000000000000000000000000000000000015e1",
+                    "revert": false,
+                    "revertMessage": "",
+                    "selector": "0xf2ad7908",
+                    "status": true,
+                    "value": "0"
+                },
+                "nodeType": 0
+            },
+            "2": {
+                "event": {
+                    "contract": "0xee03e3d55d52a35ee364fce45cd1373e0f53f8d9",
+                    "decodedLog": {
+                        "name": "ApproveClaim",
+                        "params": [
+                            {
+                                "name": "toAddress",
+                                "type": "address",
+                                "value": "0x5135b3594e412e953f41926af79dee9a591e32ed"
+                            },
+                            {
+                                "name": "amount",
+                                "type": "uint256",
+                                "value": "29,018,845,270,000,000,000"
+                            },
+                            {
+                                "name": "nonce",
+                                "type": "uint256",
+                                "value": "5,601"
+                            }
+                        ],
+                        "signature": "ApproveClaim(address,uint256,uint256)"
+                    },
+                    "id": 2,
+                    "logData": "0x",
+                    "logDecoded": true,
+                    "operation": "EVENT",
+                    "revert": false,
+                    "status": true,
+                    "topics": [
+                        "0x34fcce9d9a542cf79462224315a375abc31dd31c798ef7c09b3f6b00c8376072",
+                        "0x0000000000000000000000005135b3594e412e953f41926af79dee9a591e32ed",
+                        "0x00000000000000000000000000000000000000000000000192b7a6064e5fdc00",
+                        "0x00000000000000000000000000000000000000000000000000000000000015e1"
+                    ]
+                },
+                "nodeType": 1
+            }
+        },
+        "gasFlame": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depth": 0,
+                                "name": "Initial Gas",
+                                "value": 21656
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depth": 1,
+                                        "name": "approveClaim",
+                                        "value": 32540
+                                    }
+                                ],
+                                "depth": 0,
+                                "name": "Executed Gas",
+                                "value": 34489
+                            }
+                        ],
+                        "depth": -1,
+                        "name": "Actual Gas Used",
+                        "value": 56145
+                    },
+                    {
+                        "children": [],
+                        "depth": -1,
+                        "name": "Refunded Gas",
+                        "value": 0
+                    }
+                ],
+                "depth": -2,
+                "name": "Total Gas",
+                "value": 56145
+            }
+        ],
+        "isConfirmed": true,
+        "mainTrace": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depth": 2,
+                                        "id": 2,
+                                        "order": 2
+                                    }
+                                ],
+                                "depth": 1,
+                                "id": 1,
+                                "order": 1
+                            }
+                        ],
+                        "depth": 0,
+                        "id": 0,
+                        "order": 0
+                    }
+                ],
+                "depth": -1,
+                "id": -1,
+                "order": -1
+            }
+        ],
+        "mainTraceNodeCount": 3,
+        "parentIdMap": {
+            "0": -1,
+            "1": 0,
+            "2": 1
+        },
+        "tidyTrace": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depth": 2,
+                                        "id": 2,
+                                        "order": 2
+                                    }
+                                ],
+                                "depth": 1,
+                                "id": 1,
+                                "order": 1
+                            }
+                        ],
+                        "depth": 0,
+                        "id": 0,
+                        "order": 0
+                    }
+                ],
+                "depth": -1,
+                "id": -1,
+                "order": -1
+            }
+        ],
+        "tidyTraceNodeCount": 3
+    },
+    "state_change": {
+        "stateChanges": [
+            {
+                "address": "0xee03e3d55d52a35ee364fce45cd1373e0f53f8d9",
+                "erc": "",
+                "slots": [
+                    {
+                        "current": "0x00000000000000000000000000000000000000000000000192b7a6064e5fdc00",
+                        "key": "0x31650772497ca43c79195ed1ac9d72151ec2fad618c1e4802b56817173022840",
+                        "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                    },
+                    {
+                        "current": "0x00000000000000000000000000000000000000000000000000000000000015e1",
+                        "key": "0x000000000000000000000000000000000000000000000000000000000000000f",
+                        "prev": "0x00000000000000000000000000000000000000000000000000000000000015e0"
+                    }
+                ],
+                "storageVariables": [
+                    {
+                        "name": "_claimNonce",
+                        "type": "uint256",
+                        "value": {
+                            "current": "5601",
+                            "prev": "5600",
+                            "typeTag": 1
+                        }
+                    },
+                    {
+                        "name": "_approvedClaimMap",
+                        "type": "mapping(address => mapping(uint256 => uint256))",
+                        "value": {
+                            "pairs": [
+                                {
+                                    "key": "0x5135b3594e412e953f41926af79dee9a591e32ed",
+                                    "value": {
+                                        "pairs": [
+                                            {
+                                                "key": "5601",
+                                                "value": {
+                                                    "current": "29018845270000000000",
+                                                    "prev": "0",
+                                                    "typeTag": 1
+                                                }
+                                            }
+                                        ],
+                                        "typeTag": 4
+                                    }
+                                }
+                            ],
+                            "typeTag": 4
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,332 @@
+{
+    "balance_change": {
+        "balanceChanges": []
+    },
+    "profile": {
+        "basic_info": {
+            "baseFee": "",
+            "blockNumber": 9788110,
+            "callData": "0xea40b64c0000000000000000000000000000000000000000000000000000000000955aca",
+            "debugEnable": true,
+            "errorInfo": "",
+            "eventCount": 0,
+            "feeRecipient": "0x652d38d814bcdf3e0f750a0faf272ee96c1f67ed",
+            "formatValue": "0",
+            "gasLimit": 161891,
+            "gasPrice": "12",
+            "gasUsed": 105161,
+            "intTxnCount": 0,
+            "internalRevert": false,
+            "internalRevertMessage": "",
+            "isContractCreation": false,
+            "isFlashloan": false,
+            "maxFee": "",
+            "nonce": 80,
+            "overwritedBlockNumber": -1,
+            "priorityFee": "",
+            "receiver": "0x6ea53dfc58c5cbf68a799edd208cb3a905db5939",
+            "revertMessage": "",
+            "sender": "0x80a497f7ded17ba4d5b3aef3c77ace2beda595f6",
+            "simulationEnable": true,
+            "sourceTxnHash": "0x74759747821d51aefc6a5cec59133ed2f97a3d4b144f7e31d8544f5f231fa00f",
+            "status": true,
+            "timestamp": "2020-04-01T20:15:48Z",
+            "transactionFee": "0.001261932",
+            "txnHash": "0x74759747821d51aefc6a5cec59133ed2f97a3d4b144f7e31d8544f5f231fa00f",
+            "txnIndex": 44,
+            "type": 0,
+            "value": "0"
+        },
+        "fund_flow": [],
+        "token_infos": [
+            {
+                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "decimals": 18
+            },
+            {
+                "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "decimals": 18
+            }
+        ]
+    },
+    "address_label": {
+        "labels": [
+            {
+                "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "label": "Ether"
+            },
+            {
+                "address": "0x6ea53dfc58c5cbf68a799edd208cb3a905db5939",
+                "label": "Ethereum eRush: EER Token"
+            },
+            {
+                "address": "0x0000000000000000000000000000000000000001",
+                "label": "Precompiled"
+            },
+            {
+                "address": "0x0000000000000000000000000000000000000002",
+                "label": "Precompiled"
+            },
+            {
+                "address": "0x0000000000000000000000000000000000000003",
+                "label": "Precompiled"
+            },
+            {
+                "address": "0x0000000000000000000000000000000000000004",
+                "label": "Precompiled"
+            }
+        ]
+    },
+    "trace": {
+        "accountLabels": null,
+        "dataMap": {
+            "-1": {
+                "invocation": {
+                    "address": "0x80a497f7ded17ba4d5b3aef3c77ace2beda595f6",
+                    "callData": "",
+                    "decodedMethod": null,
+                    "errorInfo": "",
+                    "fromAddress": "",
+                    "gasUsed": 0,
+                    "id": -1,
+                    "methodDecoded": false,
+                    "operation": "",
+                    "output": "",
+                    "revert": false,
+                    "revertMessage": "",
+                    "selector": "",
+                    "status": false,
+                    "value": ""
+                },
+                "nodeType": 0
+            },
+            "0": {
+                "invocation": {
+                    "address": "0x6ea53dfc58c5cbf68a799edd208cb3a905db5939",
+                    "callData": "0x0000000000000000000000000000000000000000000000000000000000955aca",
+                    "decodedMethod": {
+                        "callParams": [
+                            {
+                                "name": "_bnumber",
+                                "type": "uint256",
+                                "value": "9,788,106"
+                            }
+                        ],
+                        "constructorArguments": "",
+                        "name": "signfordailyreward",
+                        "returnParams": [
+                            {
+                                "name": "",
+                                "type": "uint256",
+                                "value": "200"
+                            }
+                        ],
+                        "signature": "signfordailyreward(uint256)"
+                    },
+                    "errorInfo": "",
+                    "fromAddress": "0x80a497f7ded17ba4d5b3aef3c77ace2beda595f6",
+                    "gasUsed": 105161,
+                    "id": 0,
+                    "methodDecoded": true,
+                    "operation": "CALL",
+                    "output": "0x00000000000000000000000000000000000000000000000000000000000000c8",
+                    "revert": false,
+                    "revertMessage": "",
+                    "selector": "0xea40b64c",
+                    "status": true,
+                    "value": "0"
+                },
+                "nodeType": 0
+            }
+        },
+        "gasFlame": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depth": 0,
+                                "name": "Initial Gas",
+                                "value": 21228
+                            },
+                            {
+                                "children": [],
+                                "depth": 0,
+                                "name": "Executed Gas",
+                                "value": 83933
+                            }
+                        ],
+                        "depth": -1,
+                        "name": "Actual Gas Used",
+                        "value": 105161
+                    },
+                    {
+                        "children": [],
+                        "depth": -1,
+                        "name": "Refunded Gas",
+                        "value": 0
+                    }
+                ],
+                "depth": -2,
+                "name": "Total Gas",
+                "value": 105161
+            }
+        ],
+        "isConfirmed": true,
+        "mainTrace": [
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "depth": 0,
+                        "id": 0,
+                        "order": 0
+                    }
+                ],
+                "depth": -1,
+                "id": -1,
+                "order": -1
+            }
+        ],
+        "mainTraceNodeCount": 1,
+        "parentIdMap": {
+            "0": -1
+        },
+        "tidyTrace": [
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "depth": 0,
+                        "id": 0,
+                        "order": 0
+                    }
+                ],
+                "depth": -1,
+                "id": -1,
+                "order": -1
+            }
+        ],
+        "tidyTraceNodeCount": 1
+    },
+    "state_change": {
+        "stateChanges": [
+            {
+                "address": "0x6ea53dfc58c5cbf68a799edd208cb3a905db5939",
+                "erc": "ERC-20",
+                "slots": [
+                    {
+                        "current": "0x00000000000000000000000080a497f7ded17ba4d5b3aef3c77ace2beda595f6",
+                        "key": "0xe3f1f71e2327b564f38f44e205cc91a1482e0b01afac47f734fcf53faaaa8167",
+                        "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                    },
+                    {
+                        "current": "0x0000000000000000000000000000000000000000000034da07ab85ff0d240000",
+                        "key": "0x95b452bea55fc85ff4b712d2e35f2adb4c4e114eba7737e6ef356a39e38be92b",
+                        "prev": "0x000000000000000000000000000000000000000000003437742f336118a80000"
+                    },
+                    {
+                        "current": "0x000000000000000000000000000000000000000000000000000000005e84f674",
+                        "key": "0x3700a454c6b6e5f1da380823d0d7a3a3f08f13ebc30e32d0bb064f020f128c6a",
+                        "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                    },
+                    {
+                        "current": "0x0000000000000000000000000000000000000000000000000000000000000080",
+                        "key": "0x97e9754a1758bdfe9b266c90805407b6365ffb0d366e1c8312cb34a3ee8e7f62",
+                        "prev": "0x000000000000000000000000000000000000000000000000000000000000007f"
+                    }
+                ],
+                "storageVariables": [
+                    {
+                        "name": "aMiners",
+                        "type": "mapping(uint256 => struct EthereumeRush.activeMiners[])",
+                        "value": {
+                            "pairs": [
+                                {
+                                    "key": "92",
+                                    "value": {
+                                        "elemType": "struct EthereumeRush.activeMiners",
+                                        "elems": [
+                                            {
+                                                "index": 127,
+                                                "value": {
+                                                    "fields": [
+                                                        {
+                                                            "name": "bUser",
+                                                            "type": "address",
+                                                            "value": {
+                                                                "current": "0x80a497f7ded17ba4d5b3aef3c77ace2beda595f6",
+                                                                "prev": "0x0000000000000000000000000000000000000000",
+                                                                "typeTag": 1
+                                                            }
+                                                        }
+                                                    ],
+                                                    "typeTag": 3
+                                                }
+                                            }
+                                        ],
+                                        "typeTag": 2
+                                    }
+                                }
+                            ],
+                            "typeTag": 4
+                        }
+                    },
+                    {
+                        "name": "bBlockIteration",
+                        "type": "mapping(uint256 => struct EthereumeRush.nBlockDetails)",
+                        "value": {
+                            "pairs": [
+                                {
+                                    "key": "92",
+                                    "value": {
+                                        "fields": [
+                                            {
+                                                "name": "_tInvest",
+                                                "type": "uint256",
+                                                "value": {
+                                                    "current": "249585000000000000000000",
+                                                    "prev": "246586000000000000000000",
+                                                    "typeTag": 1
+                                                }
+                                            }
+                                        ],
+                                        "typeTag": 3
+                                    }
+                                }
+                            ],
+                            "typeTag": 4
+                        }
+                    },
+                    {
+                        "name": "nRewardDetails",
+                        "type": "mapping(string => struct EthereumeRush.rewarddetails)",
+                        "value": {
+                            "pairs": [
+                                {
+                                    "key": "\u0000948186614-\u000092",
+                                    "value": {
+                                        "fields": [
+                                            {
+                                                "name": "_artyr",
+                                                "type": "uint256",
+                                                "value": {
+                                                    "current": "1585772148",
+                                                    "prev": "0",
+                                                    "typeTag": 1
+                                                }
+                                            }
+                                        ],
+                                        "typeTag": 3
+                                    }
+                                }
+                            ],
+                            "typeTag": 4
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

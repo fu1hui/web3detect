@@ -1,0 +1,648 @@
+{
+    "balance_change": {
+        "balanceChanges": []
+    },
+    "profile": {
+        "basic_info": {
+            "baseFee": "",
+            "blockNumber": 11912882,
+            "callData": "0x202ee0ed00000000000000000000000000000000000000000000000000000000000015fd00000000000000000000000000000000000000000000000000000004f3a242bb",
+            "debugEnable": true,
+            "errorInfo": "",
+            "eventCount": 3,
+            "feeRecipient": "0xea674fdde714fd979de3edf0f56aa9716b898ec8",
+            "formatValue": "0",
+            "gasLimit": 500000,
+            "gasPrice": "583.153333333",
+            "gasUsed": 79772,
+            "intTxnCount": 0,
+            "internalRevert": false,
+            "internalRevertMessage": "",
+            "isContractCreation": false,
+            "isFlashloan": false,
+            "maxFee": "",
+            "nonce": 113485,
+            "overwritedBlockNumber": -1,
+            "priorityFee": "",
+            "receiver": "0x90888cddad598570c6edc443eee9aadb63cda3c4",
+            "revertMessage": "",
+            "sender": "0x0eb2177f9bff55a8df857f08b73724d52a7d92ba",
+            "simulationEnable": true,
+            "sourceTxnHash": "0xc29401eabce781fba72408c801c8cf82ab21914f79299a63730554684c5bfdac",
+            "status": true,
+            "timestamp": "2021-02-23T11:01:33Z",
+            "transactionFee": "0.046519307706640076",
+            "txnHash": "0xc29401eabce781fba72408c801c8cf82ab21914f79299a63730554684c5bfdac",
+            "txnIndex": 108,
+            "type": 0,
+            "value": "0"
+        },
+        "fund_flow": [],
+        "token_infos": [
+            {
+                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "decimals": 18
+            },
+            {
+                "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "decimals": 18
+            }
+        ]
+    },
+    "address_label": {
+        "labels": [
+            {
+                "address": "0x0000000000000000000000000000000000000004",
+                "label": "Precompiled"
+            },
+            {
+                "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "label": "Ether"
+            },
+            {
+                "address": "0x90888cddad598570c6edc443eee9aadb63cda3c4",
+                "label": "Chainlink: BNB - USD ACA 1"
+            },
+            {
+                "address": "0x0000000000000000000000000000000000000001",
+                "label": "Precompiled"
+            },
+            {
+                "address": "0x0000000000000000000000000000000000000002",
+                "label": "Precompiled"
+            },
+            {
+                "address": "0x0000000000000000000000000000000000000003",
+                "label": "Precompiled"
+            }
+        ]
+    },
+    "trace": {
+        "accountLabels": null,
+        "dataMap": {
+            "-1": {
+                "invocation": {
+                    "address": "0x0eb2177f9bff55a8df857f08b73724d52a7d92ba",
+                    "callData": "",
+                    "decodedMethod": null,
+                    "errorInfo": "",
+                    "fromAddress": "",
+                    "gasUsed": 0,
+                    "id": -1,
+                    "methodDecoded": false,
+                    "operation": "",
+                    "output": "",
+                    "revert": false,
+                    "revertMessage": "",
+                    "selector": "",
+                    "status": false,
+                    "value": ""
+                },
+                "nodeType": 0
+            },
+            "0": {
+                "invocation": {
+                    "address": "0x90888cddad598570c6edc443eee9aadb63cda3c4",
+                    "callData": "0x00000000000000000000000000000000000000000000000000000000000015fd00000000000000000000000000000000000000000000000000000004f3a242bb",
+                    "decodedMethod": {
+                        "callParams": [
+                            {
+                                "name": "_roundId",
+                                "type": "uint256",
+                                "value": "5,629"
+                            },
+                            {
+                                "name": "_submission",
+                                "type": "int256",
+                                "value": "21,267,366,587"
+                            }
+                        ],
+                        "constructorArguments": "",
+                        "name": "submit",
+                        "returnParams": [],
+                        "signature": "submit(uint256,int256)"
+                    },
+                    "errorInfo": "",
+                    "fromAddress": "0x0eb2177f9bff55a8df857f08b73724d52a7d92ba",
+                    "gasUsed": 79772,
+                    "id": 0,
+                    "methodDecoded": true,
+                    "operation": "CALL",
+                    "output": "",
+                    "revert": false,
+                    "revertMessage": "",
+                    "selector": "0x202ee0ed",
+                    "status": true,
+                    "value": "0"
+                },
+                "nodeType": 0
+            },
+            "1": {
+                "event": {
+                    "contract": "0x90888cddad598570c6edc443eee9aadb63cda3c4",
+                    "decodedLog": {
+                        "name": "SubmissionReceived",
+                        "params": [
+                            {
+                                "name": "submission",
+                                "type": "int256",
+                                "value": "21,267,366,587"
+                            },
+                            {
+                                "name": "round",
+                                "type": "uint32",
+                                "value": "5,629"
+                            },
+                            {
+                                "name": "oracle",
+                                "type": "address",
+                                "value": "0x0eb2177f9bff55a8df857f08b73724d52a7d92ba"
+                            }
+                        ],
+                        "signature": "SubmissionReceived(int256,uint32,address)"
+                    },
+                    "id": 1,
+                    "logData": "0x",
+                    "logDecoded": true,
+                    "operation": "EVENT",
+                    "revert": false,
+                    "status": true,
+                    "topics": [
+                        "0x92e98423f8adac6e64d0608e519fd1cefb861498385c6dee70d58fc926ddc68c",
+                        "0x00000000000000000000000000000000000000000000000000000004f3a242bb",
+                        "0x00000000000000000000000000000000000000000000000000000000000015fd",
+                        "0x0000000000000000000000000eb2177f9bff55a8df857f08b73724d52a7d92ba"
+                    ]
+                },
+                "nodeType": 1
+            },
+            "2": {
+                "event": {
+                    "contract": "0x90888cddad598570c6edc443eee9aadb63cda3c4",
+                    "decodedLog": {
+                        "name": "AnswerUpdated",
+                        "params": [
+                            {
+                                "name": "current",
+                                "type": "int256",
+                                "value": "21,355,405,833"
+                            },
+                            {
+                                "name": "roundId",
+                                "type": "uint256",
+                                "value": "5,629"
+                            },
+                            {
+                                "name": "updatedAt",
+                                "type": "uint256",
+                                "value": "1,614,078,093"
+                            }
+                        ],
+                        "signature": "AnswerUpdated(int256,uint256,uint256)"
+                    },
+                    "id": 2,
+                    "logData": "0x000000000000000000000000000000000000000000000000000000006034e08d",
+                    "logDecoded": true,
+                    "operation": "EVENT",
+                    "revert": false,
+                    "status": true,
+                    "topics": [
+                        "0x0559884fd3a460db3073b7fc896cc77986f16e378210ded43186175bf646fc5f",
+                        "0x00000000000000000000000000000000000000000000000000000004f8e1a209",
+                        "0x00000000000000000000000000000000000000000000000000000000000015fd"
+                    ]
+                },
+                "nodeType": 1
+            },
+            "3": {
+                "event": {
+                    "contract": "0x90888cddad598570c6edc443eee9aadb63cda3c4",
+                    "decodedLog": {
+                        "name": "AvailableFundsUpdated",
+                        "params": [
+                            {
+                                "name": "amount",
+                                "type": "uint256",
+                                "value": "22,309,080,000,000,000,000,000"
+                            }
+                        ],
+                        "signature": "AvailableFundsUpdated(uint256)"
+                    },
+                    "id": 3,
+                    "logData": "0x",
+                    "logDecoded": true,
+                    "operation": "EVENT",
+                    "revert": false,
+                    "status": true,
+                    "topics": [
+                        "0xfe25c73e3b9089fac37d55c4c7efcba6f04af04cebd2fc4d6d7dbb07e1e5234f",
+                        "0x0000000000000000000000000000000000000000000004b960adad6dab7c0000"
+                    ]
+                },
+                "nodeType": 1
+            }
+        },
+        "gasFlame": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depth": 0,
+                                "name": "Initial Gas",
+                                "value": 21404
+                            },
+                            {
+                                "children": [],
+                                "depth": 0,
+                                "name": "Executed Gas",
+                                "value": 138140
+                            }
+                        ],
+                        "depth": -1,
+                        "name": "Actual Gas Used",
+                        "value": 79772
+                    },
+                    {
+                        "children": [],
+                        "depth": -1,
+                        "name": "Refunded Gas",
+                        "value": 79772
+                    }
+                ],
+                "depth": -2,
+                "name": "Total Gas",
+                "value": 159544
+            }
+        ],
+        "isConfirmed": true,
+        "mainTrace": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 1,
+                                "order": 1
+                            },
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 2,
+                                "order": 2
+                            },
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 3,
+                                "order": 3
+                            }
+                        ],
+                        "depth": 0,
+                        "id": 0,
+                        "order": 0
+                    }
+                ],
+                "depth": -1,
+                "id": -1,
+                "order": -1
+            }
+        ],
+        "mainTraceNodeCount": 4,
+        "parentIdMap": {
+            "0": -1,
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "tidyTrace": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 1,
+                                "order": 1
+                            },
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 2,
+                                "order": 2
+                            },
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 3,
+                                "order": 3
+                            }
+                        ],
+                        "depth": 0,
+                        "id": 0,
+                        "order": 0
+                    }
+                ],
+                "depth": -1,
+                "id": -1,
+                "order": -1
+            }
+        ],
+        "tidyTraceNodeCount": 4
+    },
+    "state_change": {
+        "stateChanges": [
+            {
+                "address": "0x90888cddad598570c6edc443eee9aadb63cda3c4",
+                "erc": "",
+                "slots": [
+                    {
+                        "current": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                        "key": "0x48daa8ad8a0d8ff865366e7cfc2ca8089d96b1207c8a72c004845f894eafabdb",
+                        "prev": "0x0000000000000000000000000000000000000000000000000000000000000008"
+                    },
+                    {
+                        "current": "0x00000000000000000000000000000000000000000000000000000004f3a242bb",
+                        "key": "0xda4df17e71487f7118f4d753bbd191bf6f568c02141b4e157009fe77373cb99b",
+                        "prev": "0x00000000000000000000000000000000000000000000000000000004e6f455b9"
+                    },
+                    {
+                        "current": "0x00000000000000000000000000000000000000000000000000000004f8e1a209",
+                        "key": "0xca35a232623c5a60e267147f835a7225259a67e2b7b3e186cfb134c0d317635d",
+                        "prev": "0x00000000000000000000000000000000000000000000000000000004f96c40b0"
+                    },
+                    {
+                        "current": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                        "key": "0x3ab51ec6b59aa23c6d1ab30b32d6041f16634df286979cf8ac14c36eabd15853",
+                        "prev": "0x00000000000000000000000000000000000000000000000000000004fb00c1c0"
+                    },
+                    {
+                        "current": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                        "key": "0x48daa8ad8a0d8ff865366e7cfc2ca8089d96b1207c8a72c004845f894eafabdc",
+                        "prev": "0x0000000000000000000000000d2f13f7789f00000002a3000000000500000009"
+                    },
+                    {
+                        "current": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                        "key": "0x3ab51ec6b59aa23c6d1ab30b32d6041f16634df286979cf8ac14c36eabd1584d",
+                        "prev": "0x00000000000000000000000000000000000000000000000000000004fe29b795"
+                    },
+                    {
+                        "current": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                        "key": "0x3ab51ec6b59aa23c6d1ab30b32d6041f16634df286979cf8ac14c36eabd15850",
+                        "prev": "0x00000000000000000000000000000000000000000000000000000004ed978780"
+                    },
+                    {
+                        "current": "0x000000000000000000000000000015fd000000006034e08d000000006034e00c",
+                        "key": "0xca35a232623c5a60e267147f835a7225259a67e2b7b3e186cfb134c0d317635e",
+                        "prev": "0x000000000000000000000000000015fd000000006034e08c000000006034e00c"
+                    },
+                    {
+                        "current": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                        "key": "0x3ab51ec6b59aa23c6d1ab30b32d6041f16634df286979cf8ac14c36eabd15854",
+                        "prev": "0x00000000000000000000000000000000000000000000000000000004ed978780"
+                    },
+                    {
+                        "current": "0x00000000000000988e50b9f0f948000000000000000004b960adad6dab7c0000",
+                        "key": "0x000000000000000000000000000000000000000000000000000000000000000d",
+                        "prev": "0x00000000000000988121a5f980a9000000000000000004b96ddcc165241b0000"
+                    },
+                    {
+                        "current": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                        "key": "0x3ab51ec6b59aa23c6d1ab30b32d6041f16634df286979cf8ac14c36eabd1584f",
+                        "prev": "0x00000000000000000000000000000000000000000000000000000004f8e1a209"
+                    },
+                    {
+                        "current": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                        "key": "0x3ab51ec6b59aa23c6d1ab30b32d6041f16634df286979cf8ac14c36eabd15852",
+                        "prev": "0x00000000000000000000000000000000000000000000000000000004ed978780"
+                    },
+                    {
+                        "current": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                        "key": "0x3ab51ec6b59aa23c6d1ab30b32d6041f16634df286979cf8ac14c36eabd1584e",
+                        "prev": "0x00000000000000000000000000000000000000000000000000000004fd993368"
+                    },
+                    {
+                        "current": "0x000015fb000015fdffffffff000000010000000000000008dba16a450ad40000",
+                        "key": "0xda4df17e71487f7118f4d753bbd191bf6f568c02141b4e157009fe77373cb99a",
+                        "prev": "0x000015fb000015fcffffffff000000010000000000000008ce72564d92350000"
+                    },
+                    {
+                        "current": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                        "key": "0x3ab51ec6b59aa23c6d1ab30b32d6041f16634df286979cf8ac14c36eabd15851",
+                        "prev": "0x00000000000000000000000000000000000000000000000000000004f9f6df58"
+                    }
+                ],
+                "storageVariables": [
+                    {
+                        "name": "recordedFunds",
+                        "type": "struct FluxAggregator.Funds",
+                        "value": {
+                            "fields": [
+                                {
+                                    "name": "available",
+                                    "type": "uint128",
+                                    "value": {
+                                        "current": "22309080000000000000000",
+                                        "prev": "22310030000000000000000",
+                                        "typeTag": 1
+                                    }
+                                },
+                                {
+                                    "name": "allocated",
+                                    "type": "uint128",
+                                    "value": {
+                                        "current": "2814160000000000000000",
+                                        "prev": "2813210000000000000000",
+                                        "typeTag": 1
+                                    }
+                                }
+                            ],
+                            "typeTag": 3
+                        }
+                    },
+                    {
+                        "name": "oracles",
+                        "type": "mapping(address => struct FluxAggregator.OracleStatus)",
+                        "value": {
+                            "pairs": [
+                                {
+                                    "key": "0x0eb2177f9bff55a8df857f08b73724d52a7d92ba",
+                                    "value": {
+                                        "fields": [
+                                            {
+                                                "name": "withdrawable",
+                                                "type": "uint128",
+                                                "value": {
+                                                    "current": "163400000000000000000",
+                                                    "prev": "162450000000000000000",
+                                                    "typeTag": 1
+                                                }
+                                            },
+                                            {
+                                                "name": "startingRound",
+                                                "type": "uint32",
+                                                "value": {
+                                                    "current": "1",
+                                                    "prev": "1",
+                                                    "typeTag": 1
+                                                }
+                                            },
+                                            {
+                                                "name": "endingRound",
+                                                "type": "uint32",
+                                                "value": {
+                                                    "current": "4294967295",
+                                                    "prev": "4294967295",
+                                                    "typeTag": 1
+                                                }
+                                            },
+                                            {
+                                                "name": "lastReportedRound",
+                                                "type": "uint32",
+                                                "value": {
+                                                    "current": "5629",
+                                                    "prev": "5628",
+                                                    "typeTag": 1
+                                                }
+                                            },
+                                            {
+                                                "name": "lastStartedRound",
+                                                "type": "uint32",
+                                                "value": {
+                                                    "current": "5627",
+                                                    "prev": "5627",
+                                                    "typeTag": 1
+                                                }
+                                            },
+                                            {
+                                                "name": "latestSubmission",
+                                                "type": "int256",
+                                                "value": {
+                                                    "current": "21267366587",
+                                                    "prev": "21054641593",
+                                                    "typeTag": 1
+                                                }
+                                            }
+                                        ],
+                                        "typeTag": 3
+                                    }
+                                }
+                            ],
+                            "typeTag": 4
+                        }
+                    },
+                    {
+                        "name": "details",
+                        "type": "mapping(uint32 => struct FluxAggregator.RoundDetails)",
+                        "value": {
+                            "pairs": [
+                                {
+                                    "key": "5629",
+                                    "value": {
+                                        "fields": [
+                                            {
+                                                "name": "maxSubmissions",
+                                                "type": "uint32",
+                                                "value": {
+                                                    "current": "0",
+                                                    "prev": "9",
+                                                    "typeTag": 1
+                                                }
+                                            },
+                                            {
+                                                "name": "minSubmissions",
+                                                "type": "uint32",
+                                                "value": {
+                                                    "current": "0",
+                                                    "prev": "5",
+                                                    "typeTag": 1
+                                                }
+                                            },
+                                            {
+                                                "name": "timeout",
+                                                "type": "uint32",
+                                                "value": {
+                                                    "current": "0",
+                                                    "prev": "172800",
+                                                    "typeTag": 1
+                                                }
+                                            },
+                                            {
+                                                "name": "paymentAmount",
+                                                "type": "uint128",
+                                                "value": {
+                                                    "current": "0",
+                                                    "prev": "950000000000000000",
+                                                    "typeTag": 1
+                                                }
+                                            }
+                                        ],
+                                        "typeTag": 3
+                                    }
+                                }
+                            ],
+                            "typeTag": 4
+                        }
+                    },
+                    {
+                        "name": "rounds",
+                        "type": "mapping(uint32 => struct FluxAggregator.Round)",
+                        "value": {
+                            "pairs": [
+                                {
+                                    "key": "5629",
+                                    "value": {
+                                        "fields": [
+                                            {
+                                                "name": "answer",
+                                                "type": "int256",
+                                                "value": {
+                                                    "current": "21355405833",
+                                                    "prev": "21364490416",
+                                                    "typeTag": 1
+                                                }
+                                            },
+                                            {
+                                                "name": "startedAt",
+                                                "type": "uint64",
+                                                "value": {
+                                                    "current": "1614077964",
+                                                    "prev": "1614077964",
+                                                    "typeTag": 1
+                                                }
+                                            },
+                                            {
+                                                "name": "updatedAt",
+                                                "type": "uint64",
+                                                "value": {
+                                                    "current": "1614078093",
+                                                    "prev": "1614078092",
+                                                    "typeTag": 1
+                                                }
+                                            },
+                                            {
+                                                "name": "answeredInRound",
+                                                "type": "uint32",
+                                                "value": {
+                                                    "current": "5629",
+                                                    "prev": "5629",
+                                                    "typeTag": 1
+                                                }
+                                            }
+                                        ],
+                                        "typeTag": 3
+                                    }
+                                }
+                            ],
+                            "typeTag": 4
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

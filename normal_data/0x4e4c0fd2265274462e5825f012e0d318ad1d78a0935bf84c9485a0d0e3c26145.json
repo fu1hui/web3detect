@@ -1,0 +1,966 @@
+{
+    "balance_change": {
+        "balanceChanges": [
+            {
+                "account": "0x000452ad4d8256bf27b8d3ed51162436c99e12e4",
+                "assets": [
+                    {
+                        "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                        "amount": "0.05",
+                        "iconUrl": "https://assets.blocksec.com/image/1663669189317-3.png",
+                        "isERC1155": false,
+                        "isERC721": false,
+                        "sign": false,
+                        "value": ""
+                    }
+                ]
+            },
+            {
+                "account": "0x3cb4d8c2afbef59a07e5b2277ef5c59c9d5b0901",
+                "assets": [
+                    {
+                        "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                        "amount": "0.05",
+                        "iconUrl": "https://assets.blocksec.com/image/1663669189317-3.png",
+                        "isERC1155": false,
+                        "isERC721": false,
+                        "sign": true,
+                        "value": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "profile": {
+        "basic_info": {
+            "baseFee": "",
+            "blockNumber": 10039979,
+            "callData": "0x797eee240000000000000000000000003cb4d8c2afbef59a07e5b2277ef5c59c9d5b0901",
+            "debugEnable": true,
+            "errorInfo": "",
+            "eventCount": 4,
+            "feeRecipient": "0x5a0b54d5dc17e0aadc383d2db43b0a0d3e029c4c",
+            "formatValue": "0.05",
+            "gasLimit": 534796,
+            "gasPrice": "23",
+            "gasUsed": 411382,
+            "intTxnCount": 2,
+            "internalRevert": false,
+            "internalRevertMessage": "",
+            "isContractCreation": false,
+            "isFlashloan": false,
+            "maxFee": "",
+            "nonce": 0,
+            "overwritedBlockNumber": -1,
+            "priorityFee": "",
+            "receiver": "0x5acc84a3e955bdd76467d3348077d003f00ffb97",
+            "revertMessage": "",
+            "sender": "0x000452ad4d8256bf27b8d3ed51162436c99e12e4",
+            "simulationEnable": true,
+            "sourceTxnHash": "0x4e4c0fd2265274462e5825f012e0d318ad1d78a0935bf84c9485a0d0e3c26145",
+            "status": true,
+            "timestamp": "2020-05-10T18:10:44Z",
+            "transactionFee": "0.009461786",
+            "txnHash": "0x4e4c0fd2265274462e5825f012e0d318ad1d78a0935bf84c9485a0d0e3c26145",
+            "txnIndex": 36,
+            "type": 0,
+            "value": "50000000000000000"
+        },
+        "fund_flow": [
+            {
+                "amount": "0.05",
+                "from": "0x000452ad4d8256bf27b8d3ed51162436c99e12e4",
+                "id": 1,
+                "isERC1155": false,
+                "isERC721": false,
+                "isReverted": false,
+                "order": 1,
+                "to": "0x5acc84a3e955bdd76467d3348077d003f00ffb97",
+                "token": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+            },
+            {
+                "amount": "0.05",
+                "from": "0x5acc84a3e955bdd76467d3348077d003f00ffb97",
+                "id": 2,
+                "isERC1155": false,
+                "isERC721": false,
+                "isReverted": false,
+                "order": 2,
+                "to": "0x3cb4d8c2afbef59a07e5b2277ef5c59c9d5b0901",
+                "token": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+            }
+        ],
+        "token_infos": [
+            {
+                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "decimals": 18
+            },
+            {
+                "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "decimals": 18
+            }
+        ]
+    },
+    "address_label": {
+        "labels": [
+            {
+                "address": "0x0000000000000000000000000000000000000002",
+                "label": "Precompiled"
+            },
+            {
+                "address": "0x0000000000000000000000000000000000000003",
+                "label": "Precompiled"
+            },
+            {
+                "address": "0x0000000000000000000000000000000000000004",
+                "label": "Precompiled"
+            },
+            {
+                "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "label": "Ether"
+            },
+            {
+                "address": "0x5acc84a3e955bdd76467d3348077d003f00ffb97",
+                "label": "Forsage.io"
+            },
+            {
+                "address": "0x0000000000000000000000000000000000000001",
+                "label": "Precompiled"
+            }
+        ]
+    },
+    "trace": {
+        "accountLabels": null,
+        "dataMap": {
+            "-1": {
+                "invocation": {
+                    "address": "0x000452ad4d8256bf27b8d3ed51162436c99e12e4",
+                    "callData": "",
+                    "decodedMethod": null,
+                    "errorInfo": "",
+                    "fromAddress": "",
+                    "gasUsed": 0,
+                    "id": -1,
+                    "methodDecoded": false,
+                    "operation": "",
+                    "output": "",
+                    "revert": false,
+                    "revertMessage": "",
+                    "selector": "",
+                    "status": false,
+                    "value": ""
+                },
+                "nodeType": 0
+            },
+            "0": {
+                "invocation": {
+                    "address": "0x5acc84a3e955bdd76467d3348077d003f00ffb97",
+                    "callData": "0x0000000000000000000000003cb4d8c2afbef59a07e5b2277ef5c59c9d5b0901",
+                    "decodedMethod": {
+                        "callParams": [
+                            {
+                                "name": "referrerAddress",
+                                "type": "address",
+                                "value": "0x3cb4d8c2afbef59a07e5b2277ef5c59c9d5b0901"
+                            }
+                        ],
+                        "constructorArguments": "",
+                        "name": "registrationExt",
+                        "returnParams": [],
+                        "signature": "registrationExt(address)"
+                    },
+                    "errorInfo": "",
+                    "fromAddress": "0x000452ad4d8256bf27b8d3ed51162436c99e12e4",
+                    "gasUsed": 411382,
+                    "id": 0,
+                    "methodDecoded": true,
+                    "operation": "CALL",
+                    "output": "",
+                    "revert": false,
+                    "revertMessage": "",
+                    "selector": "0x797eee24",
+                    "status": true,
+                    "value": "0.05"
+                },
+                "nodeType": 0
+            },
+            "1": {
+                "event": {
+                    "contract": "0x5acc84a3e955bdd76467d3348077d003f00ffb97",
+                    "decodedLog": {
+                        "name": "NewUserPlace",
+                        "params": [
+                            {
+                                "name": "user",
+                                "type": "address",
+                                "value": "0x000452ad4d8256bf27b8d3ed51162436c99e12e4"
+                            },
+                            {
+                                "name": "referrer",
+                                "type": "address",
+                                "value": "0x3cb4d8c2afbef59a07e5b2277ef5c59c9d5b0901"
+                            },
+                            {
+                                "name": "matrix",
+                                "type": "uint8",
+                                "value": "1"
+                            },
+                            {
+                                "name": "level",
+                                "type": "uint8",
+                                "value": "1"
+                            },
+                            {
+                                "name": "place",
+                                "type": "uint8",
+                                "value": "1"
+                            }
+                        ],
+                        "signature": "NewUserPlace(address,address,uint8,uint8,uint8)"
+                    },
+                    "id": 1,
+                    "logData": "0x000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001",
+                    "logDecoded": true,
+                    "operation": "EVENT",
+                    "revert": false,
+                    "status": true,
+                    "topics": [
+                        "0x68062c5925c4317adf3a7095478d28b33fd8b41458bc7620b61bc46bf1b24d82",
+                        "0x000000000000000000000000000452ad4d8256bf27b8d3ed51162436c99e12e4",
+                        "0x0000000000000000000000003cb4d8c2afbef59a07e5b2277ef5c59c9d5b0901"
+                    ]
+                },
+                "nodeType": 1
+            },
+            "2": {
+                "invocation": {
+                    "address": "0x3cb4d8c2afbef59a07e5b2277ef5c59c9d5b0901",
+                    "callData": "0x",
+                    "decodedMethod": null,
+                    "errorInfo": "",
+                    "fromAddress": "0x5acc84a3e955bdd76467d3348077d003f00ffb97",
+                    "gasUsed": 0,
+                    "id": 2,
+                    "methodDecoded": false,
+                    "operation": "CALL",
+                    "output": "",
+                    "revert": false,
+                    "revertMessage": "",
+                    "selector": "fallback",
+                    "status": true,
+                    "value": "0.025"
+                },
+                "nodeType": 0
+            },
+            "3": {
+                "event": {
+                    "contract": "0x5acc84a3e955bdd76467d3348077d003f00ffb97",
+                    "decodedLog": {
+                        "name": "NewUserPlace",
+                        "params": [
+                            {
+                                "name": "user",
+                                "type": "address",
+                                "value": "0x000452ad4d8256bf27b8d3ed51162436c99e12e4"
+                            },
+                            {
+                                "name": "referrer",
+                                "type": "address",
+                                "value": "0xe430454dc34d47ac55c5f439a0ca10940eaa3307"
+                            },
+                            {
+                                "name": "matrix",
+                                "type": "uint8",
+                                "value": "2"
+                            },
+                            {
+                                "name": "level",
+                                "type": "uint8",
+                                "value": "1"
+                            },
+                            {
+                                "name": "place",
+                                "type": "uint8",
+                                "value": "1"
+                            }
+                        ],
+                        "signature": "NewUserPlace(address,address,uint8,uint8,uint8)"
+                    },
+                    "id": 3,
+                    "logData": "0x000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001",
+                    "logDecoded": true,
+                    "operation": "EVENT",
+                    "revert": false,
+                    "status": true,
+                    "topics": [
+                        "0x68062c5925c4317adf3a7095478d28b33fd8b41458bc7620b61bc46bf1b24d82",
+                        "0x000000000000000000000000000452ad4d8256bf27b8d3ed51162436c99e12e4",
+                        "0x000000000000000000000000e430454dc34d47ac55c5f439a0ca10940eaa3307"
+                    ]
+                },
+                "nodeType": 1
+            },
+            "4": {
+                "event": {
+                    "contract": "0x5acc84a3e955bdd76467d3348077d003f00ffb97",
+                    "decodedLog": {
+                        "name": "NewUserPlace",
+                        "params": [
+                            {
+                                "name": "user",
+                                "type": "address",
+                                "value": "0x000452ad4d8256bf27b8d3ed51162436c99e12e4"
+                            },
+                            {
+                                "name": "referrer",
+                                "type": "address",
+                                "value": "0x3cb4d8c2afbef59a07e5b2277ef5c59c9d5b0901"
+                            },
+                            {
+                                "name": "matrix",
+                                "type": "uint8",
+                                "value": "2"
+                            },
+                            {
+                                "name": "level",
+                                "type": "uint8",
+                                "value": "1"
+                            },
+                            {
+                                "name": "place",
+                                "type": "uint8",
+                                "value": "3"
+                            }
+                        ],
+                        "signature": "NewUserPlace(address,address,uint8,uint8,uint8)"
+                    },
+                    "id": 4,
+                    "logData": "0x000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000003",
+                    "logDecoded": true,
+                    "operation": "EVENT",
+                    "revert": false,
+                    "status": true,
+                    "topics": [
+                        "0x68062c5925c4317adf3a7095478d28b33fd8b41458bc7620b61bc46bf1b24d82",
+                        "0x000000000000000000000000000452ad4d8256bf27b8d3ed51162436c99e12e4",
+                        "0x0000000000000000000000003cb4d8c2afbef59a07e5b2277ef5c59c9d5b0901"
+                    ]
+                },
+                "nodeType": 1
+            },
+            "5": {
+                "invocation": {
+                    "address": "0x3cb4d8c2afbef59a07e5b2277ef5c59c9d5b0901",
+                    "callData": "0x",
+                    "decodedMethod": null,
+                    "errorInfo": "",
+                    "fromAddress": "0x5acc84a3e955bdd76467d3348077d003f00ffb97",
+                    "gasUsed": 0,
+                    "id": 5,
+                    "methodDecoded": false,
+                    "operation": "CALL",
+                    "output": "",
+                    "revert": false,
+                    "revertMessage": "",
+                    "selector": "fallback",
+                    "status": true,
+                    "value": "0.025"
+                },
+                "nodeType": 0
+            },
+            "6": {
+                "event": {
+                    "contract": "0x5acc84a3e955bdd76467d3348077d003f00ffb97",
+                    "decodedLog": {
+                        "name": "Registration",
+                        "params": [
+                            {
+                                "name": "user",
+                                "type": "address",
+                                "value": "0x000452ad4d8256bf27b8d3ed51162436c99e12e4"
+                            },
+                            {
+                                "name": "referrer",
+                                "type": "address",
+                                "value": "0x3cb4d8c2afbef59a07e5b2277ef5c59c9d5b0901"
+                            },
+                            {
+                                "name": "userId",
+                                "type": "uint256",
+                                "value": "89,006"
+                            },
+                            {
+                                "name": "referrerId",
+                                "type": "uint256",
+                                "value": "73,037"
+                            }
+                        ],
+                        "signature": "Registration(address,address,uint256,uint256)"
+                    },
+                    "id": 6,
+                    "logData": "0x0000000000000000000000000000000000000000000000000000000000011d4d",
+                    "logDecoded": true,
+                    "operation": "EVENT",
+                    "revert": false,
+                    "status": true,
+                    "topics": [
+                        "0x309bb360e8b69c23937ccc5fb01f9aeeead1c95a99604e175113ff82f2b1723a",
+                        "0x000000000000000000000000000452ad4d8256bf27b8d3ed51162436c99e12e4",
+                        "0x0000000000000000000000003cb4d8c2afbef59a07e5b2277ef5c59c9d5b0901",
+                        "0x0000000000000000000000000000000000000000000000000000000000015bae"
+                    ]
+                },
+                "nodeType": 1
+            }
+        },
+        "gasFlame": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depth": 0,
+                                "name": "Initial Gas",
+                                "value": 21432
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depth": 1,
+                                        "name": "fallback",
+                                        "value": 0
+                                    },
+                                    {
+                                        "children": [],
+                                        "depth": 1,
+                                        "name": "fallback",
+                                        "value": 0
+                                    }
+                                ],
+                                "depth": 0,
+                                "name": "Executed Gas",
+                                "value": 389950
+                            }
+                        ],
+                        "depth": -1,
+                        "name": "Actual Gas Used",
+                        "value": 411382
+                    },
+                    {
+                        "children": [],
+                        "depth": -1,
+                        "name": "Refunded Gas",
+                        "value": 0
+                    }
+                ],
+                "depth": -2,
+                "name": "Total Gas",
+                "value": 411382
+            }
+        ],
+        "isConfirmed": true,
+        "mainTrace": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 1,
+                                "order": 1
+                            },
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 2,
+                                "order": 2
+                            },
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 3,
+                                "order": 3
+                            },
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 4,
+                                "order": 4
+                            },
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 5,
+                                "order": 5
+                            },
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 6,
+                                "order": 6
+                            }
+                        ],
+                        "depth": 0,
+                        "id": 0,
+                        "order": 0
+                    }
+                ],
+                "depth": -1,
+                "id": -1,
+                "order": -1
+            }
+        ],
+        "mainTraceNodeCount": 7,
+        "parentIdMap": {
+            "0": -1,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0
+        },
+        "tidyTrace": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 1,
+                                "order": 1
+                            },
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 2,
+                                "order": 2
+                            },
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 3,
+                                "order": 3
+                            },
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 4,
+                                "order": 4
+                            },
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 5,
+                                "order": 5
+                            },
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 6,
+                                "order": 6
+                            }
+                        ],
+                        "depth": 0,
+                        "id": 0,
+                        "order": 0
+                    }
+                ],
+                "depth": -1,
+                "id": -1,
+                "order": -1
+            }
+        ],
+        "tidyTraceNodeCount": 7
+    },
+    "state_change": {
+        "stateChanges": [
+            {
+                "address": "0x5acc84a3e955bdd76467d3348077d003f00ffb97",
+                "erc": "",
+                "slots": [
+                    {
+                        "current": "0x000000000000000000000000e430454dc34d47ac55c5f439a0ca10940eaa3307",
+                        "key": "0x4ddb2f659843c742c0b9f7535d63d9135cee09fee8b377c37ad16cc03ec1e58a",
+                        "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                    },
+                    {
+                        "current": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                        "key": "0xe454283d26603fd29c2198c192dcb145aa129d9de766b2bf19ec584d3bc6d9bf",
+                        "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                    },
+                    {
+                        "current": "0x0000000000000000000000003cb4d8c2afbef59a07e5b2277ef5c59c9d5b0901",
+                        "key": "0x0dfd266c87bfbfb3580de0508ac46d38b32554a35e9e30f28b676a1b9bd9c53f",
+                        "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                    },
+                    {
+                        "current": "0x000000000000000000000000000452ad4d8256bf27b8d3ed51162436c99e12e4",
+                        "key": "0xa0ef41e1d526b354b09017e0a52a79ed5efd34cbeb5c98fac9396990bace8eae",
+                        "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                    },
+                    {
+                        "current": "0x000000000000000000000000000452ad4d8256bf27b8d3ed51162436c99e12e4",
+                        "key": "0x300d1781859c7e547945a60231ec74079ecbf620582ed881be6836bdc7c37f4f",
+                        "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                    },
+                    {
+                        "current": "0x000000000000000000000000000452ad4d8256bf27b8d3ed51162436c99e12e4",
+                        "key": "0xef353a7be730920db9715fd10bddc9a40db6846e6a3ba9549380e474302b81ad",
+                        "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                    },
+                    {
+                        "current": "0x0000000000000000000000003cb4d8c2afbef59a07e5b2277ef5c59c9d5b0901",
+                        "key": "0xfa0521fcb39a5b2e95ea435b95aac34187ae359835c51b340e493c753db2dea6",
+                        "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                    },
+                    {
+                        "current": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                        "key": "0x91eebda58619fb938fd92e29a2df274c1c752e970da6a8a6207a9ea06fab857d",
+                        "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                    },
+                    {
+                        "current": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                        "key": "0x2c7e11c992df0aac41c4e80ae4d46e18e4da4d2240162dec05641d952ffde770",
+                        "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                    },
+                    {
+                        "current": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                        "key": "0x9e14764935d1029d0503551ca7da2793d86f05f0384ba348b7a7616da25ee7d5",
+                        "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                    },
+                    {
+                        "current": "0x0000000000000000000000000000000000000000000000000000000000015bae",
+                        "key": "0xfa0521fcb39a5b2e95ea435b95aac34187ae359835c51b340e493c753db2dea5",
+                        "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                    },
+                    {
+                        "current": "0x000000000000000000000000000452ad4d8256bf27b8d3ed51162436c99e12e4",
+                        "key": "0x6b1ecdb28246544c2230585e48726e4a02332c69c1b2c262c1fcc725c859e410",
+                        "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                    },
+                    {
+                        "current": "0x0000000000000000000000000000000000000000000000000000000000015baf",
+                        "key": "0x0000000000000000000000000000000000000000000000000000000000000004",
+                        "prev": "0x0000000000000000000000000000000000000000000000000000000000015bae"
+                    },
+                    {
+                        "current": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                        "key": "0x4e464e52085d54eb84ee8f782baa6129a204f4e8d318932c05a05023f472ebe9",
+                        "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                    },
+                    {
+                        "current": "0x000000000000000000000000000452ad4d8256bf27b8d3ed51162436c99e12e4",
+                        "key": "0xdc74717f377a60d42da9fa08861612819bed90e130804a13f27a779430ea6528",
+                        "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                    },
+                    {
+                        "current": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                        "key": "0x130e047757f070e325ddd1d1d2c37c3a2d3ea202b975e5c896273e5adf7d73db",
+                        "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                    }
+                ],
+                "storageVariables": [
+                    {
+                        "name": "idToAddress",
+                        "type": "mapping(uint256 => address)",
+                        "value": {
+                            "pairs": [
+                                {
+                                    "key": "89006",
+                                    "value": {
+                                        "current": "0x000452ad4d8256bf27b8d3ed51162436c99e12e4",
+                                        "prev": "0x0000000000000000000000000000000000000000",
+                                        "typeTag": 1
+                                    }
+                                }
+                            ],
+                            "typeTag": 4
+                        }
+                    },
+                    {
+                        "name": "users",
+                        "type": "mapping(address => struct SmartMatrixForsage.User)",
+                        "value": {
+                            "pairs": [
+                                {
+                                    "key": "0x000452ad4d8256bf27b8d3ed51162436c99e12e4",
+                                    "value": {
+                                        "fields": [
+                                            {
+                                                "name": "id",
+                                                "type": "uint256",
+                                                "value": {
+                                                    "current": "89006",
+                                                    "prev": "0",
+                                                    "typeTag": 1
+                                                }
+                                            },
+                                            {
+                                                "name": "referrer",
+                                                "type": "address",
+                                                "value": {
+                                                    "current": "0x3cb4d8c2afbef59a07e5b2277ef5c59c9d5b0901",
+                                                    "prev": "0x0000000000000000000000000000000000000000",
+                                                    "typeTag": 1
+                                                }
+                                            },
+                                            {
+                                                "name": "activeX3Levels",
+                                                "type": "mapping(uint8 => bool)",
+                                                "value": {
+                                                    "pairs": [
+                                                        {
+                                                            "key": "1",
+                                                            "value": {
+                                                                "current": "true",
+                                                                "prev": "false",
+                                                                "typeTag": 1
+                                                            }
+                                                        }
+                                                    ],
+                                                    "typeTag": 4
+                                                }
+                                            },
+                                            {
+                                                "name": "activeX6Levels",
+                                                "type": "mapping(uint8 => bool)",
+                                                "value": {
+                                                    "pairs": [
+                                                        {
+                                                            "key": "1",
+                                                            "value": {
+                                                                "current": "true",
+                                                                "prev": "false",
+                                                                "typeTag": 1
+                                                            }
+                                                        }
+                                                    ],
+                                                    "typeTag": 4
+                                                }
+                                            },
+                                            {
+                                                "name": "x3Matrix",
+                                                "type": "mapping(uint8 => struct SmartMatrixForsage.X3)",
+                                                "value": {
+                                                    "pairs": [
+                                                        {
+                                                            "key": "1",
+                                                            "value": {
+                                                                "fields": [
+                                                                    {
+                                                                        "name": "currentReferrer",
+                                                                        "type": "address",
+                                                                        "value": {
+                                                                            "current": "0x3cb4d8c2afbef59a07e5b2277ef5c59c9d5b0901",
+                                                                            "prev": "0x0000000000000000000000000000000000000000",
+                                                                            "typeTag": 1
+                                                                        }
+                                                                    }
+                                                                ],
+                                                                "typeTag": 3
+                                                            }
+                                                        }
+                                                    ],
+                                                    "typeTag": 4
+                                                }
+                                            },
+                                            {
+                                                "name": "x6Matrix",
+                                                "type": "mapping(uint8 => struct SmartMatrixForsage.X6)",
+                                                "value": {
+                                                    "pairs": [
+                                                        {
+                                                            "key": "1",
+                                                            "value": {
+                                                                "fields": [
+                                                                    {
+                                                                        "name": "currentReferrer",
+                                                                        "type": "address",
+                                                                        "value": {
+                                                                            "current": "0xe430454dc34d47ac55c5f439a0ca10940eaa3307",
+                                                                            "prev": "0x0000000000000000000000000000000000000000",
+                                                                            "typeTag": 1
+                                                                        }
+                                                                    }
+                                                                ],
+                                                                "typeTag": 3
+                                                            }
+                                                        }
+                                                    ],
+                                                    "typeTag": 4
+                                                }
+                                            }
+                                        ],
+                                        "typeTag": 3
+                                    }
+                                },
+                                {
+                                    "key": "0x3cb4d8c2afbef59a07e5b2277ef5c59c9d5b0901",
+                                    "value": {
+                                        "fields": [
+                                            {
+                                                "name": "partnersCount",
+                                                "type": "uint256",
+                                                "value": {
+                                                    "current": "1",
+                                                    "prev": "0",
+                                                    "typeTag": 1
+                                                }
+                                            },
+                                            {
+                                                "name": "x3Matrix",
+                                                "type": "mapping(uint8 => struct SmartMatrixForsage.X3)",
+                                                "value": {
+                                                    "pairs": [
+                                                        {
+                                                            "key": "1",
+                                                            "value": {
+                                                                "fields": [
+                                                                    {
+                                                                        "name": "referrals",
+                                                                        "type": "address[]",
+                                                                        "value": {
+                                                                            "elemType": "address",
+                                                                            "elems": [
+                                                                                {
+                                                                                    "index": 0,
+                                                                                    "value": {
+                                                                                        "current": "0x000452ad4d8256bf27b8d3ed51162436c99e12e4",
+                                                                                        "prev": "0x0000000000000000000000000000000000000000",
+                                                                                        "typeTag": 1
+                                                                                    }
+                                                                                }
+                                                                            ],
+                                                                            "typeTag": 2
+                                                                        }
+                                                                    }
+                                                                ],
+                                                                "typeTag": 3
+                                                            }
+                                                        }
+                                                    ],
+                                                    "typeTag": 4
+                                                }
+                                            },
+                                            {
+                                                "name": "x6Matrix",
+                                                "type": "mapping(uint8 => struct SmartMatrixForsage.X6)",
+                                                "value": {
+                                                    "pairs": [
+                                                        {
+                                                            "key": "1",
+                                                            "value": {
+                                                                "fields": [
+                                                                    {
+                                                                        "name": "secondLevelReferrals",
+                                                                        "type": "address[]",
+                                                                        "value": {
+                                                                            "elemType": "address",
+                                                                            "elems": [
+                                                                                {
+                                                                                    "index": 0,
+                                                                                    "value": {
+                                                                                        "current": "0x000452ad4d8256bf27b8d3ed51162436c99e12e4",
+                                                                                        "prev": "0x0000000000000000000000000000000000000000",
+                                                                                        "typeTag": 1
+                                                                                    }
+                                                                                }
+                                                                            ],
+                                                                            "typeTag": 2
+                                                                        }
+                                                                    }
+                                                                ],
+                                                                "typeTag": 3
+                                                            }
+                                                        }
+                                                    ],
+                                                    "typeTag": 4
+                                                }
+                                            }
+                                        ],
+                                        "typeTag": 3
+                                    }
+                                },
+                                {
+                                    "key": "0xe430454dc34d47ac55c5f439a0ca10940eaa3307",
+                                    "value": {
+                                        "fields": [
+                                            {
+                                                "name": "x6Matrix",
+                                                "type": "mapping(uint8 => struct SmartMatrixForsage.X6)",
+                                                "value": {
+                                                    "pairs": [
+                                                        {
+                                                            "key": "1",
+                                                            "value": {
+                                                                "fields": [
+                                                                    {
+                                                                        "name": "firstLevelReferrals",
+                                                                        "type": "address[]",
+                                                                        "value": {
+                                                                            "elemType": "address",
+                                                                            "elems": [
+                                                                                {
+                                                                                    "index": 0,
+                                                                                    "value": {
+                                                                                        "current": "0x000452ad4d8256bf27b8d3ed51162436c99e12e4",
+                                                                                        "prev": "0x0000000000000000000000000000000000000000",
+                                                                                        "typeTag": 1
+                                                                                    }
+                                                                                }
+                                                                            ],
+                                                                            "typeTag": 2
+                                                                        }
+                                                                    }
+                                                                ],
+                                                                "typeTag": 3
+                                                            }
+                                                        }
+                                                    ],
+                                                    "typeTag": 4
+                                                }
+                                            }
+                                        ],
+                                        "typeTag": 3
+                                    }
+                                }
+                            ],
+                            "typeTag": 4
+                        }
+                    },
+                    {
+                        "name": "userIds",
+                        "type": "mapping(uint256 => address)",
+                        "value": {
+                            "pairs": [
+                                {
+                                    "key": "89006",
+                                    "value": {
+                                        "current": "0x000452ad4d8256bf27b8d3ed51162436c99e12e4",
+                                        "prev": "0x0000000000000000000000000000000000000000",
+                                        "typeTag": 1
+                                    }
+                                }
+                            ],
+                            "typeTag": 4
+                        }
+                    },
+                    {
+                        "name": "lastUserId",
+                        "type": "uint256",
+                        "value": {
+                            "current": "89007",
+                            "prev": "89006",
+                            "typeTag": 1
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

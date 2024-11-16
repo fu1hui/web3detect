@@ -1,0 +1,433 @@
+{
+    "balance_change": {
+        "balanceChanges": []
+    },
+    "profile": {
+        "basic_info": {
+            "baseFee": "29.25290664",
+            "blockNumber": 19281362,
+            "callData": "0x40c10f19000000000000000000000000f04af3f4e4929f7cd25a751e6149a3318373d4fe0088d003b739d32315000000000000000000000000000000000000004855be82",
+            "debugEnable": true,
+            "errorInfo": "",
+            "eventCount": 1,
+            "feeRecipient": "0x1f9090aae28b8a3dceadf281b0f12828e676c326",
+            "formatValue": "0",
+            "gasLimit": 61235,
+            "gasPrice": "39.474712179",
+            "gasUsed": 60412,
+            "intTxnCount": 1,
+            "internalRevert": false,
+            "internalRevertMessage": "",
+            "isContractCreation": false,
+            "isFlashloan": false,
+            "maxFee": "",
+            "nonce": 32033,
+            "overwritedBlockNumber": -1,
+            "priorityFee": "",
+            "receiver": "0x1cfd117f377a23100081f1785ca53a4662b2b990",
+            "revertMessage": "",
+            "sender": "0x7d2a86d97146cbec90cf4d9fdf170a717b708906",
+            "simulationEnable": true,
+            "sourceTxnHash": "0x313a4f7ce3846767156c5f1fa1888068cc0152e06e76f5e23db2870b11b13118",
+            "status": true,
+            "timestamp": "2024-02-22T06:25:59Z",
+            "transactionFee": "0.002384746312157748",
+            "txnHash": "0x313a4f7ce3846767156c5f1fa1888068cc0152e06e76f5e23db2870b11b13118",
+            "txnIndex": 12,
+            "type": 0,
+            "value": "0"
+        },
+        "fund_flow": [],
+        "token_infos": [
+            {
+                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "decimals": 18
+            },
+            {
+                "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "decimals": 18
+            }
+        ]
+    },
+    "address_label": {
+        "labels": [
+            {
+                "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "label": "Ether"
+            },
+            {
+                "address": "0xf04af3f4e4929f7cd25a751e6149a3318373d4fe",
+                "label": "Spring Token (SPRING)"
+            },
+            {
+                "address": "0x0000000000000000000000000000000000000001",
+                "label": "Precompiled"
+            },
+            {
+                "address": "0x0000000000000000000000000000000000000002",
+                "label": "Precompiled"
+            },
+            {
+                "address": "0x0000000000000000000000000000000000000003",
+                "label": "Precompiled"
+            },
+            {
+                "address": "0x0000000000000000000000000000000000000004",
+                "label": "Precompiled"
+            }
+        ]
+    },
+    "trace": {
+        "accountLabels": null,
+        "dataMap": {
+            "-1": {
+                "invocation": {
+                    "address": "0x7d2a86d97146cbec90cf4d9fdf170a717b708906",
+                    "callData": "",
+                    "decodedMethod": null,
+                    "errorInfo": "",
+                    "fromAddress": "",
+                    "gasUsed": 0,
+                    "id": -1,
+                    "methodDecoded": false,
+                    "operation": "",
+                    "output": "",
+                    "revert": false,
+                    "revertMessage": "",
+                    "selector": "",
+                    "status": false,
+                    "value": ""
+                },
+                "nodeType": 0
+            },
+            "0": {
+                "invocation": {
+                    "address": "0x1cfd117f377a23100081f1785ca53a4662b2b990",
+                    "callData": "0x000000000000000000000000f04af3f4e4929f7cd25a751e6149a3318373d4fe0088d003b739d32315000000000000000000000000000000000000004855be82",
+                    "decodedMethod": {
+                        "callParams": [
+                            {
+                                "name": "to",
+                                "type": "address",
+                                "value": "0xf04af3f4e4929f7cd25a751e6149a3318373d4fe"
+                            },
+                            {
+                                "name": "amount",
+                                "type": "uint256",
+                                "value": "241,726,864,225,769,806,971,644,512,354,047,922,131,189,419,306,495,964,825,520,634,901,164,310,146"
+                            }
+                        ],
+                        "constructorArguments": "",
+                        "name": "mint",
+                        "returnParams": [],
+                        "signature": "mint(address,uint256)"
+                    },
+                    "errorInfo": "",
+                    "fromAddress": "0x7d2a86d97146cbec90cf4d9fdf170a717b708906",
+                    "gasUsed": 60412,
+                    "id": 0,
+                    "methodDecoded": true,
+                    "operation": "CALL",
+                    "output": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                    "revert": false,
+                    "revertMessage": "",
+                    "selector": "0x40c10f19",
+                    "status": true,
+                    "value": "0"
+                },
+                "nodeType": 0
+            },
+            "1": {
+                "invocation": {
+                    "address": "0xf04af3f4e4929f7cd25a751e6149a3318373d4fe",
+                    "callData": "0x0088d003b739d32315000000000000000000000000000000000000004855be82",
+                    "decodedMethod": {
+                        "callParams": [
+                            {
+                                "name": "nonce",
+                                "type": "uint256",
+                                "value": "241,726,864,225,769,806,971,644,512,354,047,922,131,189,419,306,495,964,825,520,634,901,164,310,146"
+                            }
+                        ],
+                        "constructorArguments": "",
+                        "name": "mint",
+                        "returnParams": [
+                            {
+                                "name": "success",
+                                "type": "bool",
+                                "value": true
+                            }
+                        ],
+                        "signature": "mint(uint256)"
+                    },
+                    "errorInfo": "",
+                    "fromAddress": "0x1cfd117f377a23100081f1785ca53a4662b2b990",
+                    "gasUsed": 35195,
+                    "id": 1,
+                    "methodDecoded": true,
+                    "operation": "CALL",
+                    "output": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                    "revert": false,
+                    "revertMessage": "",
+                    "selector": "0xa0712d68",
+                    "status": true,
+                    "value": "0"
+                },
+                "nodeType": 0
+            },
+            "2": {
+                "event": {
+                    "contract": "0xf04af3f4e4929f7cd25a751e6149a3318373d4fe",
+                    "decodedLog": {
+                        "name": "Mint",
+                        "params": [
+                            {
+                                "name": "from",
+                                "type": "address",
+                                "value": "0x1cfd117f377a23100081f1785ca53a4662b2b990"
+                            },
+                            {
+                                "name": "rewardAmount",
+                                "type": "uint256",
+                                "value": "5,460,000,000,000,000,000,000"
+                            },
+                            {
+                                "name": "epochCount",
+                                "type": "uint256",
+                                "value": "129,575"
+                            },
+                            {
+                                "name": "newChallengeNumber",
+                                "type": "bytes32",
+                                "value": "0x3b85d2c624879ebb4edd0f579b145ceb9e9aa904140ad756b83b81187ee28970"
+                            }
+                        ],
+                        "signature": "Mint(address,uint256,uint256,bytes32)"
+                    },
+                    "id": 2,
+                    "logData": "0x000000000000000000000000000000000000000000000127fcb8afae20d00000000000000000000000000000000000000000000000000000000000000001fa273b85d2c624879ebb4edd0f579b145ceb9e9aa904140ad756b83b81187ee28970",
+                    "logDecoded": true,
+                    "operation": "EVENT",
+                    "revert": false,
+                    "status": true,
+                    "topics": [
+                        "0xcf6fbb9dcea7d07263ab4f5c3a92f53af33dffc421d9d121e1c74b307e68189d",
+                        "0x0000000000000000000000001cfd117f377a23100081f1785ca53a4662b2b990"
+                    ]
+                },
+                "nodeType": 1
+            }
+        },
+        "gasFlame": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depth": 0,
+                                "name": "Initial Gas",
+                                "value": 21704
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depth": 1,
+                                        "name": "mint",
+                                        "value": 35195
+                                    }
+                                ],
+                                "depth": 0,
+                                "name": "Executed Gas",
+                                "value": 38708
+                            }
+                        ],
+                        "depth": -1,
+                        "name": "Actual Gas Used",
+                        "value": 60412
+                    },
+                    {
+                        "children": [],
+                        "depth": -1,
+                        "name": "Refunded Gas",
+                        "value": 0
+                    }
+                ],
+                "depth": -2,
+                "name": "Total Gas",
+                "value": 60412
+            }
+        ],
+        "isConfirmed": true,
+        "mainTrace": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depth": 2,
+                                        "id": 2,
+                                        "order": 2
+                                    }
+                                ],
+                                "depth": 1,
+                                "id": 1,
+                                "order": 1
+                            }
+                        ],
+                        "depth": 0,
+                        "id": 0,
+                        "order": 0
+                    }
+                ],
+                "depth": -1,
+                "id": -1,
+                "order": -1
+            }
+        ],
+        "mainTraceNodeCount": 3,
+        "parentIdMap": {
+            "0": -1,
+            "1": 0,
+            "2": 1
+        },
+        "tidyTrace": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depth": 2,
+                                        "id": 2,
+                                        "order": 2
+                                    }
+                                ],
+                                "depth": 1,
+                                "id": 1,
+                                "order": 1
+                            }
+                        ],
+                        "depth": 0,
+                        "id": 0,
+                        "order": 0
+                    }
+                ],
+                "depth": -1,
+                "id": -1,
+                "order": -1
+            }
+        ],
+        "tidyTraceNodeCount": 3
+    },
+    "state_change": {
+        "stateChanges": [
+            {
+                "address": "0xf04af3f4e4929f7cd25a751e6149a3318373d4fe",
+                "erc": "ERC-20",
+                "slots": [
+                    {
+                        "current": "0x0000000000000000000000000000000000000000000000000000000000000041",
+                        "key": "0x0000000000000000000000000000000000000000000000000000000000000003",
+                        "prev": "0x0000000000000000000000000000000000000000000000000000000000000048"
+                    },
+                    {
+                        "current": "0x0000000000019dc54347a594890000f51942849ae29e96fe12b44d5cab7cb093",
+                        "key": "0x0000000000000000000000000000000000000000000000000000000000000005",
+                        "prev": "0x000000000001a1f33707b95a8f8e39db2145c697472bd3fe0db8b593e8b1aa9a"
+                    },
+                    {
+                        "current": "0x3b85d2c624879ebb4edd0f579b145ceb9e9aa904140ad756b83b81187ee28970",
+                        "key": "0x0000000000000000000000000000000000000000000000000000000000000004",
+                        "prev": "0x439903a2d4cc0049f1f5d66e97d7770f594a3435d801eda63c2f68ae2a29cbf4"
+                    },
+                    {
+                        "current": "0x0000000000000000000000000000000000000000000000000000000065d6e8f7",
+                        "key": "0x0000000000000000000000000000000000000000000000000000000000000002",
+                        "prev": "0x0000000000000000000000000000000000000000000000000000000065d682bb"
+                    },
+                    {
+                        "current": "0x00000000000000000000000000000000000000000000c4f37561721933ae0a84",
+                        "key": "0xe4ac38f85233ad051274cfe2c1798ccdced31771492221ecabda35c9f8b8cb0e",
+                        "prev": "0x00000000000000000000000000000000000000000000c3cb78a8c26b12de0a84"
+                    },
+                    {
+                        "current": "0x0000000000000000000000000000000000000000000f5515e0726eda0cb00000",
+                        "key": "0x0000000000000000000000000000000000000000000000000000000000000006",
+                        "prev": "0x0000000000000000000000000000000000000000000f53ede3b9bf2bebe00000"
+                    }
+                ],
+                "storageVariables": [
+                    {
+                        "name": "maxNumberOfRewardsPerMint",
+                        "type": "uint256",
+                        "value": {
+                            "current": "65",
+                            "prev": "72",
+                            "typeTag": 1
+                        }
+                    },
+                    {
+                        "name": "miningTarget",
+                        "type": "uint256",
+                        "value": {
+                            "current": "664903651018453844269545282285259382416261635989126947865931923",
+                            "prev": "671619849513589741686409376045716547895213773726390856430234266",
+                            "typeTag": 1
+                        }
+                    },
+                    {
+                        "name": "challengeNumber",
+                        "type": "bytes32",
+                        "value": {
+                            "current": "0x3b85d2c624879ebb4edd0f579b145ceb9e9aa904140ad756b83b81187ee28970",
+                            "prev": "0x439903a2d4cc0049f1f5d66e97d7770f594a3435d801eda63c2f68ae2a29cbf4",
+                            "typeTag": 1
+                        }
+                    },
+                    {
+                        "name": "lastRewardBlockTime",
+                        "type": "uint256",
+                        "value": {
+                            "current": "1708583159",
+                            "prev": "1708556987",
+                            "typeTag": 1
+                        }
+                    },
+                    {
+                        "name": "balances",
+                        "type": "mapping(address => uint256)",
+                        "value": {
+                            "pairs": [
+                                {
+                                    "key": "0x1cfd117f377a23100081f1785ca53a4662b2b990",
+                                    "value": {
+                                        "current": "930074847619389628222084",
+                                        "prev": "924614847619389628222084",
+                                        "typeTag": 1
+                                    }
+                                }
+                            ],
+                            "typeTag": 4
+                        }
+                    },
+                    {
+                        "name": "tokensMinted",
+                        "type": "uint256",
+                        "value": {
+                            "current": "18535692000000000000000000",
+                            "prev": "18530232000000000000000000",
+                            "typeTag": 1
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

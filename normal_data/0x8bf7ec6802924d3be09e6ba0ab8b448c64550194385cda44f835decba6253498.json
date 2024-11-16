@@ -1,0 +1,389 @@
+{
+    "balance_change": {
+        "balanceChanges": []
+    },
+    "profile": {
+        "basic_info": {
+            "baseFee": "34.392716512",
+            "blockNumber": 14940460,
+            "callData": "0xb413b4e400000000000000000000000000000000000000000000000000000000000000960000000000000000000000000000000000000000000000000000000000000001",
+            "debugEnable": true,
+            "errorInfo": "",
+            "eventCount": 1,
+            "feeRecipient": "0x7f101fe45e6649a6fb8f3f8b43ed03d353f2b90c",
+            "formatValue": "0",
+            "gasLimit": 99169,
+            "gasPrice": "35.892716512",
+            "gasUsed": 76284,
+            "intTxnCount": 0,
+            "internalRevert": false,
+            "internalRevertMessage": "",
+            "isContractCreation": false,
+            "isFlashloan": false,
+            "maxFee": "54.595265639",
+            "nonce": 368,
+            "overwritedBlockNumber": -1,
+            "priorityFee": "1.5",
+            "receiver": "0x8ee5dd62a654a60f6f17a99d544102f37b58da26",
+            "revertMessage": "",
+            "sender": "0x3052e1fd42db76738d0710971ef23db55130e3b0",
+            "simulationEnable": true,
+            "sourceTxnHash": "0x8bf7ec6802924d3be09e6ba0ab8b448c64550194385cda44f835decba6253498",
+            "status": true,
+            "timestamp": "2022-06-10T20:45:06Z",
+            "transactionFee": "0.002738039986401408",
+            "txnHash": "0x8bf7ec6802924d3be09e6ba0ab8b448c64550194385cda44f835decba6253498",
+            "txnIndex": 199,
+            "type": 2,
+            "value": "0"
+        },
+        "fund_flow": [],
+        "token_infos": [
+            {
+                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "decimals": 18
+            },
+            {
+                "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "decimals": 18
+            }
+        ]
+    },
+    "address_label": {
+        "labels": [
+            {
+                "address": "0x0000000000000000000000000000000000000001",
+                "label": "Precompiled"
+            },
+            {
+                "address": "0x0000000000000000000000000000000000000002",
+                "label": "Precompiled"
+            },
+            {
+                "address": "0x0000000000000000000000000000000000000003",
+                "label": "Precompiled"
+            },
+            {
+                "address": "0x0000000000000000000000000000000000000004",
+                "label": "Precompiled"
+            },
+            {
+                "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "label": "Ether"
+            },
+            {
+                "address": "0x8ee5dd62a654a60f6f17a99d544102f37b58da26",
+                "label": "illogics: ill Token"
+            }
+        ]
+    },
+    "trace": {
+        "accountLabels": null,
+        "dataMap": {
+            "-1": {
+                "invocation": {
+                    "address": "0x3052e1fd42db76738d0710971ef23db55130e3b0",
+                    "callData": "",
+                    "decodedMethod": null,
+                    "errorInfo": "",
+                    "fromAddress": "",
+                    "gasUsed": 0,
+                    "id": -1,
+                    "methodDecoded": false,
+                    "operation": "",
+                    "output": "",
+                    "revert": false,
+                    "revertMessage": "",
+                    "selector": "",
+                    "status": false,
+                    "value": ""
+                },
+                "nodeType": 0
+            },
+            "0": {
+                "invocation": {
+                    "address": "0x8ee5dd62a654a60f6f17a99d544102f37b58da26",
+                    "callData": "0x00000000000000000000000000000000000000000000000000000000000000960000000000000000000000000000000000000000000000000000000000000001",
+                    "decodedMethod": {
+                        "callParams": [
+                            {
+                                "name": "_item",
+                                "type": "uint256",
+                                "value": "150"
+                            },
+                            {
+                                "name": "_count",
+                                "type": "uint256",
+                                "value": "1"
+                            }
+                        ],
+                        "constructorArguments": "",
+                        "name": "spendGoop",
+                        "returnParams": [],
+                        "signature": "spendGoop(uint256,uint256)"
+                    },
+                    "errorInfo": "",
+                    "fromAddress": "0x3052e1fd42db76738d0710971ef23db55130e3b0",
+                    "gasUsed": 76284,
+                    "id": 0,
+                    "methodDecoded": true,
+                    "operation": "CALL",
+                    "output": "",
+                    "revert": false,
+                    "revertMessage": "",
+                    "selector": "0xb413b4e4",
+                    "status": true,
+                    "value": "0"
+                },
+                "nodeType": 0
+            },
+            "1": {
+                "event": {
+                    "contract": "0x8ee5dd62a654a60f6f17a99d544102f37b58da26",
+                    "decodedLog": {
+                        "name": "spentGoop",
+                        "params": [
+                            {
+                                "name": "purchaser",
+                                "type": "address",
+                                "value": "0x3052e1fd42db76738d0710971ef23db55130e3b0"
+                            },
+                            {
+                                "name": "item",
+                                "type": "uint256",
+                                "value": "150"
+                            },
+                            {
+                                "name": "count",
+                                "type": "uint256",
+                                "value": "1"
+                            }
+                        ],
+                        "signature": "spentGoop(address,uint256,uint256)"
+                    },
+                    "id": 1,
+                    "logData": "0x",
+                    "logDecoded": true,
+                    "operation": "EVENT",
+                    "revert": false,
+                    "status": true,
+                    "topics": [
+                        "0x37d866404e1f1c5c5dd931a5ee274424b3d325feaac047d0a78cd1fe03f323c3",
+                        "0x0000000000000000000000003052e1fd42db76738d0710971ef23db55130e3b0",
+                        "0x0000000000000000000000000000000000000000000000000000000000000096",
+                        "0x0000000000000000000000000000000000000000000000000000000000000001"
+                    ]
+                },
+                "nodeType": 1
+            }
+        },
+        "gasFlame": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depth": 0,
+                                "name": "Initial Gas",
+                                "value": 21344
+                            },
+                            {
+                                "children": [],
+                                "depth": 0,
+                                "name": "Executed Gas",
+                                "value": 54940
+                            }
+                        ],
+                        "depth": -1,
+                        "name": "Actual Gas Used",
+                        "value": 76284
+                    },
+                    {
+                        "children": [],
+                        "depth": -1,
+                        "name": "Refunded Gas",
+                        "value": 0
+                    }
+                ],
+                "depth": -2,
+                "name": "Total Gas",
+                "value": 76284
+            }
+        ],
+        "isConfirmed": true,
+        "mainTrace": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 1,
+                                "order": 1
+                            }
+                        ],
+                        "depth": 0,
+                        "id": 0,
+                        "order": 0
+                    }
+                ],
+                "depth": -1,
+                "id": -1,
+                "order": -1
+            }
+        ],
+        "mainTraceNodeCount": 2,
+        "parentIdMap": {
+            "0": -1,
+            "1": 0
+        },
+        "tidyTrace": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 1,
+                                "order": 1
+                            }
+                        ],
+                        "depth": 0,
+                        "id": 0,
+                        "order": 0
+                    }
+                ],
+                "depth": -1,
+                "id": -1,
+                "order": -1
+            }
+        ],
+        "tidyTraceNodeCount": 2
+    },
+    "state_change": {
+        "stateChanges": [
+            {
+                "address": "0x8ee5dd62a654a60f6f17a99d544102f37b58da26",
+                "erc": "ERC-721",
+                "slots": [
+                    {
+                        "current": "0x000000000000000000000000000000000000000000000000000000000000007d",
+                        "key": "0x3057c41aa0c1ba2e00dc7486e34897bb818069af61007915f4d67e64360428f8",
+                        "prev": "0x000000000000000000000000000000000000000000000000000000000000020d"
+                    },
+                    {
+                        "current": "0x00000000000000000000000000000000000000000000000000000000000e602c",
+                        "key": "0x0000000000000000000000000000000000000000000000000000000000000010",
+                        "prev": "0x00000000000000000000000000000000000000000000000000000000000e61bc"
+                    },
+                    {
+                        "current": "0x0000000000000000000000000000000000000000000000000000000000000007",
+                        "key": "0x5195a85fe6a23280814bddc9c85bb1af23deb8d47519b72c9b4f359946c7cd36",
+                        "prev": "0x0000000000000000000000000000000000000000000000000000000000000008"
+                    },
+                    {
+                        "current": "0x0000000000000000000000000000000000000000000000000000000000099274",
+                        "key": "0x0000000000000000000000000000000000000000000000000000000000000011",
+                        "prev": "0x00000000000000000000000000000000000000000000000000000000000990e4"
+                    },
+                    {
+                        "current": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                        "key": "0x0af7603b9792eb86662cdb85891e2a6f986a3d45d500c0bcbaf09890fb20fddc",
+                        "prev": "0x0000000000000000000000000000000000000000000000000000000000000000"
+                    }
+                ],
+                "storageVariables": [
+                    {
+                        "name": "addressPurchases",
+                        "type": "mapping(address => mapping(uint256 => uint256))",
+                        "value": {
+                            "pairs": [
+                                {
+                                    "key": "0x3052e1fd42db76738d0710971ef23db55130e3b0",
+                                    "value": {
+                                        "pairs": [
+                                            {
+                                                "key": "150",
+                                                "value": {
+                                                    "current": "1",
+                                                    "prev": "0",
+                                                    "typeTag": 1
+                                                }
+                                            }
+                                        ],
+                                        "typeTag": 4
+                                    }
+                                }
+                            ],
+                            "typeTag": 4
+                        }
+                    },
+                    {
+                        "name": "goop",
+                        "type": "mapping(address => uint256)",
+                        "value": {
+                            "pairs": [
+                                {
+                                    "key": "0x3052e1fd42db76738d0710971ef23db55130e3b0",
+                                    "value": {
+                                        "current": "125",
+                                        "prev": "525",
+                                        "typeTag": 1
+                                    }
+                                }
+                            ],
+                            "typeTag": 4
+                        }
+                    },
+                    {
+                        "name": "totalGoopSupply",
+                        "type": "uint256",
+                        "value": {
+                            "current": "942124",
+                            "prev": "942524",
+                            "typeTag": 1
+                        }
+                    },
+                    {
+                        "name": "saleItems",
+                        "type": "mapping(uint256 => struct illogics.Sale)",
+                        "value": {
+                            "pairs": [
+                                {
+                                    "key": "150",
+                                    "value": {
+                                        "fields": [
+                                            {
+                                                "name": "supply",
+                                                "type": "uint256",
+                                                "value": {
+                                                    "current": "7",
+                                                    "prev": "8",
+                                                    "typeTag": 1
+                                                }
+                                            }
+                                        ],
+                                        "typeTag": 3
+                                    }
+                                }
+                            ],
+                            "typeTag": 4
+                        }
+                    },
+                    {
+                        "name": "totalGoopSpent",
+                        "type": "uint256",
+                        "value": {
+                            "current": "627316",
+                            "prev": "626916",
+                            "typeTag": 1
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

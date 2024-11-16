@@ -1,0 +1,497 @@
+{
+    "balance_change": {
+        "balanceChanges": [
+            {
+                "account": "0x16205a6048b6af17f1ac1a009bbf2ed9289e6921",
+                "assets": [
+                    {
+                        "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                        "amount": "0.008",
+                        "iconUrl": "https://assets.blocksec.com/image/1663669189317-3.png",
+                        "isERC1155": false,
+                        "isERC721": false,
+                        "sign": false,
+                        "value": ""
+                    }
+                ]
+            },
+            {
+                "account": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+                "assets": [
+                    {
+                        "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                        "amount": "0.008",
+                        "iconUrl": "https://assets.blocksec.com/image/1663669189317-3.png",
+                        "isERC1155": false,
+                        "isERC721": false,
+                        "sign": true,
+                        "value": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "profile": {
+        "basic_info": {
+            "baseFee": "",
+            "blockNumber": 6934023,
+            "callData": "0xf7d8c8830000000000000000000000000000000000000000000000000000000000137a370000000000000000000000000000000000000000000000000000000000127ab5",
+            "debugEnable": true,
+            "errorInfo": "",
+            "eventCount": 1,
+            "feeRecipient": "0x2a65aca4d5fc5b5c859090a6c34d164135398226",
+            "formatValue": "0.008",
+            "gasLimit": 103924,
+            "gasPrice": "2",
+            "gasUsed": 69283,
+            "intTxnCount": 0,
+            "internalRevert": false,
+            "internalRevertMessage": "",
+            "isContractCreation": false,
+            "isFlashloan": false,
+            "maxFee": "",
+            "nonce": 11858,
+            "overwritedBlockNumber": -1,
+            "priorityFee": "",
+            "receiver": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+            "revertMessage": "",
+            "sender": "0x16205a6048b6af17f1ac1a009bbf2ed9289e6921",
+            "simulationEnable": true,
+            "sourceTxnHash": "0x0a21fb45b43cc978c50261ab2dd68695097206f5daadfdb10edac6b0a96bafa0",
+            "status": true,
+            "timestamp": "2018-12-22T18:46:27Z",
+            "transactionFee": "0.000138566",
+            "txnHash": "0x0a21fb45b43cc978c50261ab2dd68695097206f5daadfdb10edac6b0a96bafa0",
+            "txnIndex": 100,
+            "type": 0,
+            "value": "8000000000000000"
+        },
+        "fund_flow": [
+            {
+                "amount": "0.008",
+                "from": "0x16205a6048b6af17f1ac1a009bbf2ed9289e6921",
+                "id": 1,
+                "isERC1155": false,
+                "isERC721": false,
+                "isReverted": false,
+                "order": 1,
+                "to": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+                "token": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+            }
+        ],
+        "token_infos": [
+            {
+                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "decimals": 18
+            },
+            {
+                "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "decimals": 18
+            }
+        ]
+    },
+    "address_label": {
+        "labels": [
+            {
+                "address": "0x0000000000000000000000000000000000000001",
+                "label": "Precompiled"
+            },
+            {
+                "address": "0x0000000000000000000000000000000000000002",
+                "label": "Precompiled"
+            },
+            {
+                "address": "0x0000000000000000000000000000000000000003",
+                "label": "Precompiled"
+            },
+            {
+                "address": "0x0000000000000000000000000000000000000004",
+                "label": "Precompiled"
+            },
+            {
+                "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "label": "Ether"
+            },
+            {
+                "address": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+                "label": "CryptoKitties: Core"
+            }
+        ]
+    },
+    "trace": {
+        "accountLabels": null,
+        "dataMap": {
+            "-1": {
+                "invocation": {
+                    "address": "0x16205a6048b6af17f1ac1a009bbf2ed9289e6921",
+                    "callData": "",
+                    "decodedMethod": null,
+                    "errorInfo": "",
+                    "fromAddress": "",
+                    "gasUsed": 0,
+                    "id": -1,
+                    "methodDecoded": false,
+                    "operation": "",
+                    "output": "",
+                    "revert": false,
+                    "revertMessage": "",
+                    "selector": "",
+                    "status": false,
+                    "value": ""
+                },
+                "nodeType": 0
+            },
+            "0": {
+                "invocation": {
+                    "address": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+                    "callData": "0x0000000000000000000000000000000000000000000000000000000000137a370000000000000000000000000000000000000000000000000000000000127ab5",
+                    "decodedMethod": {
+                        "callParams": [
+                            {
+                                "name": "_matronId",
+                                "type": "uint256",
+                                "value": "1,276,471"
+                            },
+                            {
+                                "name": "_sireId",
+                                "type": "uint256",
+                                "value": "1,211,061"
+                            }
+                        ],
+                        "constructorArguments": "",
+                        "name": "breedWithAuto",
+                        "returnParams": [],
+                        "signature": "breedWithAuto(uint256,uint256)"
+                    },
+                    "errorInfo": "",
+                    "fromAddress": "0x16205a6048b6af17f1ac1a009bbf2ed9289e6921",
+                    "gasUsed": 69283,
+                    "id": 0,
+                    "methodDecoded": true,
+                    "operation": "CALL",
+                    "output": "",
+                    "revert": false,
+                    "revertMessage": "",
+                    "selector": "0xf7d8c883",
+                    "status": true,
+                    "value": "0.008"
+                },
+                "nodeType": 0
+            },
+            "1": {
+                "event": {
+                    "contract": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+                    "decodedLog": {
+                        "name": "Pregnant",
+                        "params": [
+                            {
+                                "name": "owner",
+                                "type": "address",
+                                "value": "0x16205a6048b6af17f1ac1a009bbf2ed9289e6921"
+                            },
+                            {
+                                "name": "matronId",
+                                "type": "uint256",
+                                "value": "1,276,471"
+                            },
+                            {
+                                "name": "sireId",
+                                "type": "uint256",
+                                "value": "1,211,061"
+                            },
+                            {
+                                "name": "cooldownEndBlock",
+                                "type": "uint256",
+                                "value": "6,974,343"
+                            }
+                        ],
+                        "signature": "Pregnant(address,uint256,uint256,uint256)"
+                    },
+                    "id": 1,
+                    "logData": "0x00000000000000000000000016205a6048b6af17f1ac1a009bbf2ed9289e69210000000000000000000000000000000000000000000000000000000000137a370000000000000000000000000000000000000000000000000000000000127ab500000000000000000000000000000000000000000000000000000000006a6b87",
+                    "logDecoded": true,
+                    "operation": "EVENT",
+                    "revert": false,
+                    "status": true,
+                    "topics": [
+                        "0x241ea03ca20251805084d27d4440371c34a0b85ff108f6bb5611248f73818b80"
+                    ]
+                },
+                "nodeType": 1
+            }
+        },
+        "gasFlame": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depth": 0,
+                                "name": "Initial Gas",
+                                "value": 21912
+                            },
+                            {
+                                "children": [],
+                                "depth": 0,
+                                "name": "Executed Gas",
+                                "value": 47371
+                            }
+                        ],
+                        "depth": -1,
+                        "name": "Actual Gas Used",
+                        "value": 69283
+                    },
+                    {
+                        "children": [],
+                        "depth": -1,
+                        "name": "Refunded Gas",
+                        "value": 0
+                    }
+                ],
+                "depth": -2,
+                "name": "Total Gas",
+                "value": 69283
+            }
+        ],
+        "isConfirmed": true,
+        "mainTrace": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 1,
+                                "order": 1
+                            }
+                        ],
+                        "depth": 0,
+                        "id": 0,
+                        "order": 0
+                    }
+                ],
+                "depth": -1,
+                "id": -1,
+                "order": -1
+            }
+        ],
+        "mainTraceNodeCount": 2,
+        "parentIdMap": {
+            "0": -1,
+            "1": 0
+        },
+        "tidyTrace": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 1,
+                                "order": 1
+                            }
+                        ],
+                        "depth": 0,
+                        "id": 0,
+                        "order": 0
+                    }
+                ],
+                "depth": -1,
+                "id": -1,
+                "order": -1
+            }
+        ],
+        "tidyTraceNodeCount": 2
+    },
+    "state_change": {
+        "stateChanges": [
+            {
+                "address": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+                "erc": "",
+                "slots": [
+                    {
+                        "current": "0x0000000000000000000000000000000000000000000000000000000000000a0e",
+                        "key": "0x000000000000000000000000000000000000000000000000000000000000000f",
+                        "prev": "0x0000000000000000000000000000000000000000000000000000000000000a0d"
+                    },
+                    {
+                        "current": "0x0003000d00127ab50010a0760011d23100000000006a6b87000000005c10d432",
+                        "key": "0xf652222313e28459528d920b65115c16c04f3efc82aaedc97be59f3f37a301ae",
+                        "prev": "0x0003000d000000000010a0760011d231000000000069cb56000000005c10d432"
+                    },
+                    {
+                        "current": "0x0003000d00000000001274780011213400000000006a6b87000000005bf89dc2",
+                        "key": "0xf652222313e28459528d920b65115c16c04f3efc82aaedc97be59f3f37a102aa",
+                        "prev": "0x0003000d000000000012747800112134000000000069cb56000000005bf89dc2"
+                    }
+                ],
+                "storageVariables": [
+                    {
+                        "name": "pregnantKitties",
+                        "type": "uint256",
+                        "value": {
+                            "current": "2574",
+                            "prev": "2573",
+                            "typeTag": 1
+                        }
+                    },
+                    {
+                        "name": "kitties",
+                        "type": "struct KittyBase.Kitty[]",
+                        "value": {
+                            "elemType": "struct KittyBase.Kitty",
+                            "elems": [
+                                {
+                                    "index": 1211061,
+                                    "value": {
+                                        "fields": [
+                                            {
+                                                "name": "birthTime",
+                                                "type": "uint64",
+                                                "value": {
+                                                    "current": "1543019970",
+                                                    "prev": "1543019970",
+                                                    "typeTag": 1
+                                                }
+                                            },
+                                            {
+                                                "name": "cooldownEndBlock",
+                                                "type": "uint64",
+                                                "value": {
+                                                    "current": "6974343",
+                                                    "prev": "6933334",
+                                                    "typeTag": 1
+                                                }
+                                            },
+                                            {
+                                                "name": "matronId",
+                                                "type": "uint32",
+                                                "value": {
+                                                    "current": "1122612",
+                                                    "prev": "1122612",
+                                                    "typeTag": 1
+                                                }
+                                            },
+                                            {
+                                                "name": "sireId",
+                                                "type": "uint32",
+                                                "value": {
+                                                    "current": "1209464",
+                                                    "prev": "1209464",
+                                                    "typeTag": 1
+                                                }
+                                            },
+                                            {
+                                                "name": "siringWithId",
+                                                "type": "uint32",
+                                                "value": {
+                                                    "current": "0",
+                                                    "prev": "0",
+                                                    "typeTag": 1
+                                                }
+                                            },
+                                            {
+                                                "name": "cooldownIndex",
+                                                "type": "uint16",
+                                                "value": {
+                                                    "current": "13",
+                                                    "prev": "13",
+                                                    "typeTag": 1
+                                                }
+                                            },
+                                            {
+                                                "name": "generation",
+                                                "type": "uint16",
+                                                "value": {
+                                                    "current": "3",
+                                                    "prev": "3",
+                                                    "typeTag": 1
+                                                }
+                                            }
+                                        ],
+                                        "typeTag": 3
+                                    }
+                                },
+                                {
+                                    "index": 1276471,
+                                    "value": {
+                                        "fields": [
+                                            {
+                                                "name": "birthTime",
+                                                "type": "uint64",
+                                                "value": {
+                                                    "current": "1544606770",
+                                                    "prev": "1544606770",
+                                                    "typeTag": 1
+                                                }
+                                            },
+                                            {
+                                                "name": "cooldownEndBlock",
+                                                "type": "uint64",
+                                                "value": {
+                                                    "current": "6974343",
+                                                    "prev": "6933334",
+                                                    "typeTag": 1
+                                                }
+                                            },
+                                            {
+                                                "name": "matronId",
+                                                "type": "uint32",
+                                                "value": {
+                                                    "current": "1167921",
+                                                    "prev": "1167921",
+                                                    "typeTag": 1
+                                                }
+                                            },
+                                            {
+                                                "name": "sireId",
+                                                "type": "uint32",
+                                                "value": {
+                                                    "current": "1089654",
+                                                    "prev": "1089654",
+                                                    "typeTag": 1
+                                                }
+                                            },
+                                            {
+                                                "name": "siringWithId",
+                                                "type": "uint32",
+                                                "value": {
+                                                    "current": "1211061",
+                                                    "prev": "0",
+                                                    "typeTag": 1
+                                                }
+                                            },
+                                            {
+                                                "name": "cooldownIndex",
+                                                "type": "uint16",
+                                                "value": {
+                                                    "current": "13",
+                                                    "prev": "13",
+                                                    "typeTag": 1
+                                                }
+                                            },
+                                            {
+                                                "name": "generation",
+                                                "type": "uint16",
+                                                "value": {
+                                                    "current": "3",
+                                                    "prev": "3",
+                                                    "typeTag": 1
+                                                }
+                                            }
+                                        ],
+                                        "typeTag": 3
+                                    }
+                                }
+                            ],
+                            "typeTag": 2
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

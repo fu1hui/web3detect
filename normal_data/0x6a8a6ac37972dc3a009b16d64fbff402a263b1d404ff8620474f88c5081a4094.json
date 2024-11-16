@@ -1,0 +1,447 @@
+{
+    "balance_change": {
+        "balanceChanges": [
+            {
+                "account": "0xddddddd1fd4e3708869c00cabe6b0b9d15181bb9",
+                "assets": [
+                    {
+                        "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                        "amount": "0.000000000000000001",
+                        "iconUrl": "https://assets.blocksec.com/image/1663669189317-3.png",
+                        "isERC1155": false,
+                        "isERC721": false,
+                        "sign": false,
+                        "value": ""
+                    }
+                ]
+            },
+            {
+                "account": "0xbfc69e94abfb0341e772565164f6783a55ed5a38",
+                "assets": [
+                    {
+                        "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                        "amount": "0.000000000000000001",
+                        "iconUrl": "https://assets.blocksec.com/image/1663669189317-3.png",
+                        "isERC1155": false,
+                        "isERC721": false,
+                        "sign": true,
+                        "value": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "profile": {
+        "basic_info": {
+            "baseFee": "",
+            "blockNumber": 7569887,
+            "callData": "0x8f0b1bb4751cb82464d399db181025f4b6e25109d66ce467925b94476b1f733da8013f72015f870ec145e7c911cd3d5b74d1869a4ae6509feaea5073eaf8260eaca7bec0",
+            "debugEnable": true,
+            "errorInfo": "",
+            "eventCount": 1,
+            "feeRecipient": "0x06b8c5883ec71bc3f4b332081519f23834c8706e",
+            "formatValue": "0",
+            "gasLimit": 5000000,
+            "gasPrice": "7.88888888",
+            "gasUsed": 33184,
+            "intTxnCount": 1,
+            "internalRevert": false,
+            "internalRevertMessage": "",
+            "isContractCreation": false,
+            "isFlashloan": false,
+            "maxFee": "",
+            "nonce": 18058,
+            "overwritedBlockNumber": -1,
+            "priorityFee": "",
+            "receiver": "0xddddddd1fd4e3708869c00cabe6b0b9d15181bb9",
+            "revertMessage": "",
+            "sender": "0xccccccc3b1ac9d2d02ce052917ee92618e9738b9",
+            "simulationEnable": true,
+            "sourceTxnHash": "0x6a8a6ac37972dc3a009b16d64fbff402a263b1d404ff8620474f88c5081a4094",
+            "status": true,
+            "timestamp": "2019-04-15T02:41:35Z",
+            "transactionFee": "0.00026178488859392",
+            "txnHash": "0x6a8a6ac37972dc3a009b16d64fbff402a263b1d404ff8620474f88c5081a4094",
+            "txnIndex": 47,
+            "type": 0,
+            "value": "0"
+        },
+        "fund_flow": [
+            {
+                "amount": "0.000000000000000001",
+                "from": "0xddddddd1fd4e3708869c00cabe6b0b9d15181bb9",
+                "id": 1,
+                "isERC1155": false,
+                "isERC721": false,
+                "isReverted": false,
+                "order": 1,
+                "to": "0xbfc69e94abfb0341e772565164f6783a55ed5a38",
+                "token": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+            }
+        ],
+        "token_infos": [
+            {
+                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "decimals": 18
+            },
+            {
+                "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "decimals": 18
+            }
+        ]
+    },
+    "address_label": {
+        "labels": [
+            {
+                "address": "0x0000000000000000000000000000000000000002",
+                "label": "Precompiled"
+            },
+            {
+                "address": "0x0000000000000000000000000000000000000003",
+                "label": "Precompiled"
+            },
+            {
+                "address": "0x0000000000000000000000000000000000000004",
+                "label": "Precompiled"
+            },
+            {
+                "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "label": "Ether"
+            },
+            {
+                "address": "0xddddddd1fd4e3708869c00cabe6b0b9d15181bb9",
+                "label": "FCK.com: Roulette"
+            },
+            {
+                "address": "0x0000000000000000000000000000000000000001",
+                "label": "Precompiled"
+            }
+        ]
+    },
+    "trace": {
+        "accountLabels": null,
+        "dataMap": {
+            "-1": {
+                "invocation": {
+                    "address": "0xccccccc3b1ac9d2d02ce052917ee92618e9738b9",
+                    "callData": "",
+                    "decodedMethod": null,
+                    "errorInfo": "",
+                    "fromAddress": "",
+                    "gasUsed": 0,
+                    "id": -1,
+                    "methodDecoded": false,
+                    "operation": "",
+                    "output": "",
+                    "revert": false,
+                    "revertMessage": "",
+                    "selector": "",
+                    "status": false,
+                    "value": ""
+                },
+                "nodeType": 0
+            },
+            "0": {
+                "invocation": {
+                    "address": "0xddddddd1fd4e3708869c00cabe6b0b9d15181bb9",
+                    "callData": "0x751cb82464d399db181025f4b6e25109d66ce467925b94476b1f733da8013f72015f870ec145e7c911cd3d5b74d1869a4ae6509feaea5073eaf8260eaca7bec0",
+                    "decodedMethod": {
+                        "callParams": [
+                            {
+                                "name": "reveal",
+                                "type": "uint256",
+                                "value": "52,971,345,904,560,128,451,117,668,623,301,980,668,551,123,388,021,041,974,054,160,464,026,238,271,346"
+                            },
+                            {
+                                "name": "blockHash",
+                                "type": "bytes32",
+                                "value": "0x015f870ec145e7c911cd3d5b74d1869a4ae6509feaea5073eaf8260eaca7bec0"
+                            }
+                        ],
+                        "constructorArguments": "",
+                        "name": "settleBetSingle",
+                        "returnParams": [],
+                        "signature": "settleBetSingle(uint256,bytes32)"
+                    },
+                    "errorInfo": "",
+                    "fromAddress": "0xccccccc3b1ac9d2d02ce052917ee92618e9738b9",
+                    "gasUsed": 33184,
+                    "id": 0,
+                    "methodDecoded": true,
+                    "operation": "CALL",
+                    "output": "",
+                    "revert": false,
+                    "revertMessage": "",
+                    "selector": "0x8f0b1bb4",
+                    "status": true,
+                    "value": "0"
+                },
+                "nodeType": 0
+            },
+            "1": {
+                "invocation": {
+                    "address": "0xbfc69e94abfb0341e772565164f6783a55ed5a38",
+                    "callData": "0x",
+                    "decodedMethod": null,
+                    "errorInfo": "",
+                    "fromAddress": "0xddddddd1fd4e3708869c00cabe6b0b9d15181bb9",
+                    "gasUsed": 0,
+                    "id": 1,
+                    "methodDecoded": false,
+                    "operation": "CALL",
+                    "output": "",
+                    "revert": false,
+                    "revertMessage": "",
+                    "selector": "fallback",
+                    "status": true,
+                    "value": "0.000000000000000001"
+                },
+                "nodeType": 0
+            },
+            "2": {
+                "event": {
+                    "contract": "0xddddddd1fd4e3708869c00cabe6b0b9d15181bb9",
+                    "decodedLog": {
+                        "name": "Payment",
+                        "params": [
+                            {
+                                "name": "beneficiary",
+                                "type": "address",
+                                "value": "0xbfc69e94abfb0341e772565164f6783a55ed5a38"
+                            },
+                            {
+                                "name": "amount",
+                                "type": "uint256",
+                                "value": "0"
+                            },
+                            {
+                                "name": "commit",
+                                "type": "uint256",
+                                "value": "7,891,137,948,152,196,828,939,537,888,627,560,059,240,437,895,364,866,130,565,624,980,939,229,120,518"
+                            }
+                        ],
+                        "signature": "Payment(address,uint256,uint256)"
+                    },
+                    "id": 2,
+                    "logData": "0x0000000000000000000000000000000000000000000000000000000000000000117239ce21d0ae4776eabe88d09d09f5e0dcdf12bbd323b4a87e48d219184806",
+                    "logDecoded": true,
+                    "operation": "EVENT",
+                    "revert": false,
+                    "status": true,
+                    "topics": [
+                        "0x9643c1b5b172b26d5f028be7fe646349bd5e3cd9367bb18f9e825afa828b7d93",
+                        "0x000000000000000000000000bfc69e94abfb0341e772565164f6783a55ed5a38"
+                    ]
+                },
+                "nodeType": 1
+            }
+        },
+        "gasFlame": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depth": 0,
+                                "name": "Initial Gas",
+                                "value": 25624
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depth": 1,
+                                        "name": "fallback",
+                                        "value": 0
+                                    }
+                                ],
+                                "depth": 0,
+                                "name": "Executed Gas",
+                                "value": 22560
+                            }
+                        ],
+                        "depth": -1,
+                        "name": "Actual Gas Used",
+                        "value": 33184
+                    },
+                    {
+                        "children": [],
+                        "depth": -1,
+                        "name": "Refunded Gas",
+                        "value": 15000
+                    }
+                ],
+                "depth": -2,
+                "name": "Total Gas",
+                "value": 48184
+            }
+        ],
+        "isConfirmed": true,
+        "mainTrace": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 1,
+                                "order": 1
+                            },
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 2,
+                                "order": 2
+                            }
+                        ],
+                        "depth": 0,
+                        "id": 0,
+                        "order": 0
+                    }
+                ],
+                "depth": -1,
+                "id": -1,
+                "order": -1
+            }
+        ],
+        "mainTraceNodeCount": 3,
+        "parentIdMap": {
+            "0": -1,
+            "1": 0,
+            "2": 0
+        },
+        "tidyTrace": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 1,
+                                "order": 1
+                            },
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 2,
+                                "order": 2
+                            }
+                        ],
+                        "depth": 0,
+                        "id": 0,
+                        "order": 0
+                    }
+                ],
+                "depth": -1,
+                "id": -1,
+                "order": -1
+            }
+        ],
+        "tidyTraceNodeCount": 3
+    },
+    "state_change": {
+        "stateChanges": [
+            {
+                "address": "0xddddddd1fd4e3708869c00cabe6b0b9d15181bb9",
+                "erc": "",
+                "slots": [
+                    {
+                        "current": "0xbfc69e94abfb0341e772565164f6783a55ed5a380c250200002386f26fc10000",
+                        "key": "0x1e26173200db9801bdc2db9e9af7c3cee7a9731e25bfdc91471bb0334270d7f2",
+                        "prev": "0xbfc69e94abfb0341e772565164f6783a55ed5a380c250100002386f26fc10000"
+                    },
+                    {
+                        "current": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                        "key": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                        "prev": "0x000000000000000000000000000000000000000000000000006a94d74f430000"
+                    }
+                ],
+                "storageVariables": [
+                    {
+                        "name": "singleBets",
+                        "type": "mapping(uint256 => struct FckRoulette.SingleBet)",
+                        "value": {
+                            "pairs": [
+                                {
+                                    "key": "7891137948152196828939537888627560059240437895364866130565624980939229120518",
+                                    "value": {
+                                        "fields": [
+                                            {
+                                                "name": "amount",
+                                                "type": "uint72",
+                                                "value": {
+                                                    "current": "10000000000000000",
+                                                    "prev": "10000000000000000",
+                                                    "typeTag": 1
+                                                }
+                                            },
+                                            {
+                                                "name": "status",
+                                                "type": "uint8",
+                                                "value": {
+                                                    "current": "2",
+                                                    "prev": "1",
+                                                    "typeTag": 1
+                                                }
+                                            },
+                                            {
+                                                "name": "modulo",
+                                                "type": "uint8",
+                                                "value": {
+                                                    "current": "37",
+                                                    "prev": "37",
+                                                    "typeTag": 1
+                                                }
+                                            },
+                                            {
+                                                "name": "rollUnder",
+                                                "type": "uint8",
+                                                "value": {
+                                                    "current": "12",
+                                                    "prev": "12",
+                                                    "typeTag": 1
+                                                }
+                                            },
+                                            {
+                                                "name": "gambler",
+                                                "type": "address payable",
+                                                "value": {
+                                                    "current": "0xbfc69e94abfb0341e772565164f6783a55ed5a38",
+                                                    "prev": "0xbfc69e94abfb0341e772565164f6783a55ed5a38",
+                                                    "typeTag": 1
+                                                }
+                                            }
+                                        ],
+                                        "typeTag": 3
+                                    }
+                                }
+                            ],
+                            "typeTag": 4
+                        }
+                    },
+                    {
+                        "name": "lockedInBets",
+                        "type": "uint128",
+                        "value": {
+                            "current": "0",
+                            "prev": "30000000000000000",
+                            "typeTag": 1
+                        }
+                    },
+                    {
+                        "name": "jackpotSize",
+                        "type": "uint128",
+                        "value": {
+                            "current": "0",
+                            "prev": "0",
+                            "typeTag": 1
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

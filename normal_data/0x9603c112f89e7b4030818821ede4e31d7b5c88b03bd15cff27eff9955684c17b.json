@@ -1,0 +1,874 @@
+{
+    "balance_change": {
+        "balanceChanges": []
+    },
+    "profile": {
+        "basic_info": {
+            "baseFee": "",
+            "blockNumber": 7227093,
+            "callData": "0x98d261920000000000000000000000000000000000000000000000000000000000154f1900000000000000000000000000000000000000000000000000000000001548d5000000000000000000000000000000000000000000000000000000000014eb7b0000000000000000000000000000000000000000000000000000000000154ddb000000000000000000000000000000000000000000000000000000000014efcf00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "debugEnable": true,
+            "errorInfo": "",
+            "eventCount": 0,
+            "feeRecipient": "0xea674fdde714fd979de3edf0f56aa9716b898ec8",
+            "formatValue": "0",
+            "gasLimit": 2280000,
+            "gasPrice": "6.5",
+            "gasUsed": 67765,
+            "intTxnCount": 12,
+            "internalRevert": true,
+            "internalRevertMessage": "",
+            "isContractCreation": false,
+            "isFlashloan": false,
+            "maxFee": "",
+            "nonce": 93720,
+            "overwritedBlockNumber": -1,
+            "priorityFee": "",
+            "receiver": "0x827727b4c3f75ea6eb6bd2cc256de40db2b13665",
+            "revertMessage": "",
+            "sender": "0x682ed78859e2235e03535e11d2396e1e200bf0d4",
+            "simulationEnable": true,
+            "sourceTxnHash": "0x9603c112f89e7b4030818821ede4e31d7b5c88b03bd15cff27eff9955684c17b",
+            "status": true,
+            "timestamp": "2019-02-16T09:07:01Z",
+            "transactionFee": "0.0004404725",
+            "txnHash": "0x9603c112f89e7b4030818821ede4e31d7b5c88b03bd15cff27eff9955684c17b",
+            "txnIndex": 11,
+            "type": 0,
+            "value": "0"
+        },
+        "fund_flow": [],
+        "token_infos": [
+            {
+                "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "decimals": 18
+            },
+            {
+                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "decimals": 18
+            }
+        ]
+    },
+    "address_label": {
+        "labels": [
+            {
+                "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "label": "Ether"
+            },
+            {
+                "address": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+                "label": "CryptoKitties: Core"
+            },
+            {
+                "address": "0xb77feddb7e627a78140a2a32cac65a49ed1dba8e",
+                "label": "CryptoKitties: GeneScience"
+            },
+            {
+                "address": "0x0000000000000000000000000000000000000001",
+                "label": "Precompiled"
+            },
+            {
+                "address": "0x0000000000000000000000000000000000000002",
+                "label": "Precompiled"
+            },
+            {
+                "address": "0x0000000000000000000000000000000000000003",
+                "label": "Precompiled"
+            },
+            {
+                "address": "0x0000000000000000000000000000000000000004",
+                "label": "Precompiled"
+            }
+        ]
+    },
+    "trace": {
+        "accountLabels": null,
+        "dataMap": {
+            "-1": {
+                "invocation": {
+                    "address": "0x682ed78859e2235e03535e11d2396e1e200bf0d4",
+                    "callData": "",
+                    "decodedMethod": null,
+                    "errorInfo": "",
+                    "fromAddress": "",
+                    "gasUsed": 0,
+                    "id": -1,
+                    "methodDecoded": false,
+                    "operation": "",
+                    "output": "",
+                    "revert": false,
+                    "revertMessage": "",
+                    "selector": "",
+                    "status": false,
+                    "value": ""
+                },
+                "nodeType": 0
+            },
+            "0": {
+                "invocation": {
+                    "address": "0x827727b4c3f75ea6eb6bd2cc256de40db2b13665",
+                    "callData": "0x0000000000000000000000000000000000000000000000000000000000154f1900000000000000000000000000000000000000000000000000000000001548d5000000000000000000000000000000000000000000000000000000000014eb7b0000000000000000000000000000000000000000000000000000000000154ddb000000000000000000000000000000000000000000000000000000000014efcf00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                    "decodedMethod": null,
+                    "errorInfo": "",
+                    "fromAddress": "0x682ed78859e2235e03535e11d2396e1e200bf0d4",
+                    "gasUsed": 67765,
+                    "id": 0,
+                    "methodDecoded": false,
+                    "operation": "CALL",
+                    "output": "",
+                    "revert": false,
+                    "revertMessage": "",
+                    "selector": "0x98d26192",
+                    "status": true,
+                    "value": "0"
+                },
+                "nodeType": 0
+            },
+            "1": {
+                "invocation": {
+                    "address": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+                    "callData": "0x0000000000000000000000000000000000000000000000000000000000154f19",
+                    "decodedMethod": {
+                        "callParams": [
+                            {
+                                "name": "_kittyId",
+                                "type": "uint256",
+                                "value": "1,396,505"
+                            }
+                        ],
+                        "constructorArguments": "",
+                        "name": "isPregnant",
+                        "returnParams": [
+                            {
+                                "name": "",
+                                "type": "bool",
+                                "value": true
+                            }
+                        ],
+                        "signature": "isPregnant(uint256)"
+                    },
+                    "errorInfo": "",
+                    "fromAddress": "0x827727b4c3f75ea6eb6bd2cc256de40db2b13665",
+                    "gasUsed": 1118,
+                    "id": 1,
+                    "methodDecoded": true,
+                    "operation": "CALL",
+                    "output": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                    "revert": false,
+                    "revertMessage": "",
+                    "selector": "0x1940a936",
+                    "status": true,
+                    "value": "0"
+                },
+                "nodeType": 0
+            },
+            "10": {
+                "invocation": {
+                    "address": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+                    "callData": "0x0000000000000000000000000000000000000000000000000000000000154ddb",
+                    "decodedMethod": {
+                        "callParams": [
+                            {
+                                "name": "_kittyId",
+                                "type": "uint256",
+                                "value": "1,396,187"
+                            }
+                        ],
+                        "constructorArguments": "",
+                        "name": "isPregnant",
+                        "returnParams": [
+                            {
+                                "name": "",
+                                "type": "bool",
+                                "value": false
+                            }
+                        ],
+                        "signature": "isPregnant(uint256)"
+                    },
+                    "errorInfo": "",
+                    "fromAddress": "0x827727b4c3f75ea6eb6bd2cc256de40db2b13665",
+                    "gasUsed": 1118,
+                    "id": 10,
+                    "methodDecoded": true,
+                    "operation": "CALL",
+                    "output": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "revert": false,
+                    "revertMessage": "",
+                    "selector": "0x1940a936",
+                    "status": true,
+                    "value": "0"
+                },
+                "nodeType": 0
+            },
+            "11": {
+                "invocation": {
+                    "address": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+                    "callData": "0x000000000000000000000000000000000000000000000000000000000014efcf",
+                    "decodedMethod": {
+                        "callParams": [
+                            {
+                                "name": "_kittyId",
+                                "type": "uint256",
+                                "value": "1,372,111"
+                            }
+                        ],
+                        "constructorArguments": "",
+                        "name": "isPregnant",
+                        "returnParams": [
+                            {
+                                "name": "",
+                                "type": "bool",
+                                "value": false
+                            }
+                        ],
+                        "signature": "isPregnant(uint256)"
+                    },
+                    "errorInfo": "",
+                    "fromAddress": "0x827727b4c3f75ea6eb6bd2cc256de40db2b13665",
+                    "gasUsed": 1118,
+                    "id": 11,
+                    "methodDecoded": true,
+                    "operation": "CALL",
+                    "output": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "revert": false,
+                    "revertMessage": "",
+                    "selector": "0x1940a936",
+                    "status": true,
+                    "value": "0"
+                },
+                "nodeType": 0
+            },
+            "12": {
+                "invocation": {
+                    "address": "0x682ed78859e2235e03535e11d2396e1e200bf0d4",
+                    "callData": "0x",
+                    "decodedMethod": null,
+                    "errorInfo": "",
+                    "fromAddress": "0x827727b4c3f75ea6eb6bd2cc256de40db2b13665",
+                    "gasUsed": 0,
+                    "id": 12,
+                    "methodDecoded": false,
+                    "operation": "CALL",
+                    "output": "",
+                    "revert": false,
+                    "revertMessage": "",
+                    "selector": "fallback",
+                    "status": true,
+                    "value": "0"
+                },
+                "nodeType": 0
+            },
+            "2": {
+                "invocation": {
+                    "address": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+                    "callData": "0x0000000000000000000000000000000000000000000000000000000000154f19",
+                    "decodedMethod": {
+                        "callParams": [
+                            {
+                                "name": "_matronId",
+                                "type": "uint256",
+                                "value": "1,396,505"
+                            }
+                        ],
+                        "constructorArguments": "",
+                        "name": "giveBirth",
+                        "returnParams": [],
+                        "signature": "giveBirth(uint256)"
+                    },
+                    "errorInfo": "execution reverted",
+                    "fromAddress": "0x827727b4c3f75ea6eb6bd2cc256de40db2b13665",
+                    "gasUsed": 8108,
+                    "id": 2,
+                    "methodDecoded": true,
+                    "operation": "CALL",
+                    "output": "",
+                    "revert": true,
+                    "revertMessage": "",
+                    "selector": "0x88c2a0bf",
+                    "status": false,
+                    "value": "0"
+                },
+                "nodeType": 0
+            },
+            "3": {
+                "invocation": {
+                    "address": "0xb77feddb7e627a78140a2a32cac65a49ed1dba8e",
+                    "callData": "0x00005850c424253052e4a4ee5880e181c6220464a8c5708ed3258b0b0e478021000062101119e43042e7bd7710c0831c0a4b106294a0434e7408480b1e77bd2400000000000000000000000000000000000000000000000000000000006e46d4",
+                    "decodedMethod": {
+                        "callParams": [
+                            {
+                                "name": "_genes1",
+                                "type": "uint256",
+                                "value": "609,531,130,329,409,758,632,079,350,069,016,590,803,102,447,254,789,582,242,296,160,613,531,681"
+                            },
+                            {
+                                "name": "_genes2",
+                                "type": "uint256",
+                                "value": "676,804,302,092,196,325,620,963,553,502,182,562,307,286,153,598,767,026,649,184,271,875,947,812"
+                            },
+                            {
+                                "name": "_targetBlock",
+                                "type": "uint256",
+                                "value": "7,227,092"
+                            }
+                        ],
+                        "constructorArguments": "",
+                        "name": "mixGenes",
+                        "returnParams": [],
+                        "signature": "mixGenes(uint256,uint256,uint256)"
+                    },
+                    "errorInfo": "execution reverted",
+                    "fromAddress": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+                    "gasUsed": 1232,
+                    "id": 3,
+                    "methodDecoded": true,
+                    "operation": "CALL",
+                    "output": "",
+                    "revert": true,
+                    "revertMessage": "",
+                    "selector": "0x0d9f5aed",
+                    "status": false,
+                    "value": "0"
+                },
+                "nodeType": 0
+            },
+            "4": {
+                "invocation": {
+                    "address": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+                    "callData": "0x00000000000000000000000000000000000000000000000000000000001548d5",
+                    "decodedMethod": {
+                        "callParams": [
+                            {
+                                "name": "_kittyId",
+                                "type": "uint256",
+                                "value": "1,394,901"
+                            }
+                        ],
+                        "constructorArguments": "",
+                        "name": "isPregnant",
+                        "returnParams": [
+                            {
+                                "name": "",
+                                "type": "bool",
+                                "value": true
+                            }
+                        ],
+                        "signature": "isPregnant(uint256)"
+                    },
+                    "errorInfo": "",
+                    "fromAddress": "0x827727b4c3f75ea6eb6bd2cc256de40db2b13665",
+                    "gasUsed": 1118,
+                    "id": 4,
+                    "methodDecoded": true,
+                    "operation": "CALL",
+                    "output": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                    "revert": false,
+                    "revertMessage": "",
+                    "selector": "0x1940a936",
+                    "status": true,
+                    "value": "0"
+                },
+                "nodeType": 0
+            },
+            "5": {
+                "invocation": {
+                    "address": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+                    "callData": "0x00000000000000000000000000000000000000000000000000000000001548d5",
+                    "decodedMethod": {
+                        "callParams": [
+                            {
+                                "name": "_matronId",
+                                "type": "uint256",
+                                "value": "1,394,901"
+                            }
+                        ],
+                        "constructorArguments": "",
+                        "name": "giveBirth",
+                        "returnParams": [],
+                        "signature": "giveBirth(uint256)"
+                    },
+                    "errorInfo": "execution reverted",
+                    "fromAddress": "0x827727b4c3f75ea6eb6bd2cc256de40db2b13665",
+                    "gasUsed": 8108,
+                    "id": 5,
+                    "methodDecoded": true,
+                    "operation": "CALL",
+                    "output": "",
+                    "revert": true,
+                    "revertMessage": "",
+                    "selector": "0x88c2a0bf",
+                    "status": false,
+                    "value": "0"
+                },
+                "nodeType": 0
+            },
+            "6": {
+                "invocation": {
+                    "address": "0xb77feddb7e627a78140a2a32cac65a49ed1dba8e",
+                    "callData": "0x00004b1095b8877a80e72cee7310c084236b18a3956f6010c4a40838d4701021000042108114e61b006714493088568cae52d4b694ec688017a1e818ce250df100000000000000000000000000000000000000000000000000000000006e46d4",
+                    "decodedMethod": {
+                        "callParams": [
+                            {
+                                "name": "_genes1",
+                                "type": "uint256",
+                                "value": "518,078,102,598,340,549,170,381,066,409,982,783,309,786,132,617,182,462,452,765,665,442,926,625"
+                            },
+                            {
+                                "name": "_genes2",
+                                "type": "uint256",
+                                "value": "455,960,211,917,764,892,489,975,904,506,184,726,695,773,945,507,353,924,452,654,115,820,211,697"
+                            },
+                            {
+                                "name": "_targetBlock",
+                                "type": "uint256",
+                                "value": "7,227,092"
+                            }
+                        ],
+                        "constructorArguments": "",
+                        "name": "mixGenes",
+                        "returnParams": [],
+                        "signature": "mixGenes(uint256,uint256,uint256)"
+                    },
+                    "errorInfo": "execution reverted",
+                    "fromAddress": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+                    "gasUsed": 1232,
+                    "id": 6,
+                    "methodDecoded": true,
+                    "operation": "CALL",
+                    "output": "",
+                    "revert": true,
+                    "revertMessage": "",
+                    "selector": "0x0d9f5aed",
+                    "status": false,
+                    "value": "0"
+                },
+                "nodeType": 0
+            },
+            "7": {
+                "invocation": {
+                    "address": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+                    "callData": "0x000000000000000000000000000000000000000000000000000000000014eb7b",
+                    "decodedMethod": {
+                        "callParams": [
+                            {
+                                "name": "_kittyId",
+                                "type": "uint256",
+                                "value": "1,371,003"
+                            }
+                        ],
+                        "constructorArguments": "",
+                        "name": "isPregnant",
+                        "returnParams": [
+                            {
+                                "name": "",
+                                "type": "bool",
+                                "value": true
+                            }
+                        ],
+                        "signature": "isPregnant(uint256)"
+                    },
+                    "errorInfo": "",
+                    "fromAddress": "0x827727b4c3f75ea6eb6bd2cc256de40db2b13665",
+                    "gasUsed": 1118,
+                    "id": 7,
+                    "methodDecoded": true,
+                    "operation": "CALL",
+                    "output": "0x0000000000000000000000000000000000000000000000000000000000000001",
+                    "revert": false,
+                    "revertMessage": "",
+                    "selector": "0x1940a936",
+                    "status": true,
+                    "value": "0"
+                },
+                "nodeType": 0
+            },
+            "8": {
+                "invocation": {
+                    "address": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+                    "callData": "0x000000000000000000000000000000000000000000000000000000000014eb7b",
+                    "decodedMethod": {
+                        "callParams": [
+                            {
+                                "name": "_matronId",
+                                "type": "uint256",
+                                "value": "1,371,003"
+                            }
+                        ],
+                        "constructorArguments": "",
+                        "name": "giveBirth",
+                        "returnParams": [],
+                        "signature": "giveBirth(uint256)"
+                    },
+                    "errorInfo": "execution reverted",
+                    "fromAddress": "0x827727b4c3f75ea6eb6bd2cc256de40db2b13665",
+                    "gasUsed": 8402,
+                    "id": 8,
+                    "methodDecoded": true,
+                    "operation": "CALL",
+                    "output": "",
+                    "revert": true,
+                    "revertMessage": "",
+                    "selector": "0x88c2a0bf",
+                    "status": false,
+                    "value": "0"
+                },
+                "nodeType": 0
+            },
+            "9": {
+                "invocation": {
+                    "address": "0xb77feddb7e627a78140a2a32cac65a49ed1dba8e",
+                    "callData": "0x000053d2c0a8217042e588e0589051a98163586648afd9f7b50eeb51f2a0bca500004a589a958b3183552048389015295c19c5671a7c398c71b90d30d3603c2100000000000000000000000000000000000000000000000000000000006e46d0",
+                    "decodedMethod": {
+                        "callParams": [
+                            {
+                                "name": "_genes1",
+                                "type": "uint256",
+                                "value": "578,526,824,708,643,830,339,719,673,849,074,990,464,461,404,566,423,591,800,291,952,114,580,645"
+                            },
+                            {
+                                "name": "_genes2",
+                                "type": "uint256",
+                                "value": "513,117,984,580,847,880,994,927,164,643,401,798,573,647,720,906,863,709,129,131,622,158,842,913"
+                            },
+                            {
+                                "name": "_targetBlock",
+                                "type": "uint256",
+                                "value": "7,227,088"
+                            }
+                        ],
+                        "constructorArguments": "",
+                        "name": "mixGenes",
+                        "returnParams": [],
+                        "signature": "mixGenes(uint256,uint256,uint256)"
+                    },
+                    "errorInfo": "execution reverted",
+                    "fromAddress": "0x06012c8cf97bead5deae237070f9587f8e7a266d",
+                    "gasUsed": 1232,
+                    "id": 9,
+                    "methodDecoded": true,
+                    "operation": "CALL",
+                    "output": "",
+                    "revert": true,
+                    "revertMessage": "",
+                    "selector": "0x0d9f5aed",
+                    "status": false,
+                    "value": "0"
+                },
+                "nodeType": 0
+            }
+        },
+        "gasFlame": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depth": 0,
+                                "name": "Initial Gas",
+                                "value": 23512
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depth": 1,
+                                        "name": "isPregnant",
+                                        "value": 1118
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [],
+                                                "depth": 2,
+                                                "name": "mixGenes",
+                                                "value": 1232
+                                            }
+                                        ],
+                                        "depth": 1,
+                                        "name": "giveBirth",
+                                        "value": 8108
+                                    },
+                                    {
+                                        "children": [],
+                                        "depth": 1,
+                                        "name": "isPregnant",
+                                        "value": 1118
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [],
+                                                "depth": 2,
+                                                "name": "mixGenes",
+                                                "value": 1232
+                                            }
+                                        ],
+                                        "depth": 1,
+                                        "name": "giveBirth",
+                                        "value": 8108
+                                    },
+                                    {
+                                        "children": [],
+                                        "depth": 1,
+                                        "name": "isPregnant",
+                                        "value": 1118
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [],
+                                                "depth": 2,
+                                                "name": "mixGenes",
+                                                "value": 1232
+                                            }
+                                        ],
+                                        "depth": 1,
+                                        "name": "giveBirth",
+                                        "value": 8402
+                                    },
+                                    {
+                                        "children": [],
+                                        "depth": 1,
+                                        "name": "isPregnant",
+                                        "value": 1118
+                                    },
+                                    {
+                                        "children": [],
+                                        "depth": 1,
+                                        "name": "isPregnant",
+                                        "value": 1118
+                                    },
+                                    {
+                                        "children": [],
+                                        "depth": 1,
+                                        "name": "fallback",
+                                        "value": 0
+                                    }
+                                ],
+                                "depth": 0,
+                                "name": "Executed Gas",
+                                "value": 44253
+                            }
+                        ],
+                        "depth": -1,
+                        "name": "Actual Gas Used",
+                        "value": 67765
+                    },
+                    {
+                        "children": [],
+                        "depth": -1,
+                        "name": "Refunded Gas",
+                        "value": 0
+                    }
+                ],
+                "depth": -2,
+                "name": "Total Gas",
+                "value": 67765
+            }
+        ],
+        "isConfirmed": true,
+        "mainTrace": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 1,
+                                "order": 1
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depth": 2,
+                                        "id": 3,
+                                        "order": 3
+                                    }
+                                ],
+                                "depth": 1,
+                                "id": 2,
+                                "order": 2
+                            },
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 4,
+                                "order": 4
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depth": 2,
+                                        "id": 6,
+                                        "order": 6
+                                    }
+                                ],
+                                "depth": 1,
+                                "id": 5,
+                                "order": 5
+                            },
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 7,
+                                "order": 7
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depth": 2,
+                                        "id": 9,
+                                        "order": 9
+                                    }
+                                ],
+                                "depth": 1,
+                                "id": 8,
+                                "order": 8
+                            },
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 10,
+                                "order": 10
+                            },
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 11,
+                                "order": 11
+                            },
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 12,
+                                "order": 12
+                            }
+                        ],
+                        "depth": 0,
+                        "id": 0,
+                        "order": 0
+                    }
+                ],
+                "depth": -1,
+                "id": -1,
+                "order": -1
+            }
+        ],
+        "mainTraceNodeCount": 13,
+        "parentIdMap": {
+            "0": -1,
+            "1": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "2": 0,
+            "3": 2,
+            "4": 0,
+            "5": 0,
+            "6": 5,
+            "7": 0,
+            "8": 0,
+            "9": 8
+        },
+        "tidyTrace": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 1,
+                                "order": 1
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depth": 2,
+                                        "id": 3,
+                                        "order": 3
+                                    }
+                                ],
+                                "depth": 1,
+                                "id": 2,
+                                "order": 2
+                            },
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 4,
+                                "order": 4
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depth": 2,
+                                        "id": 6,
+                                        "order": 6
+                                    }
+                                ],
+                                "depth": 1,
+                                "id": 5,
+                                "order": 5
+                            },
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 7,
+                                "order": 7
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "depth": 2,
+                                        "id": 9,
+                                        "order": 9
+                                    }
+                                ],
+                                "depth": 1,
+                                "id": 8,
+                                "order": 8
+                            },
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 10,
+                                "order": 10
+                            },
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 11,
+                                "order": 11
+                            },
+                            {
+                                "children": [],
+                                "depth": 1,
+                                "id": 12,
+                                "order": 12
+                            }
+                        ],
+                        "depth": 0,
+                        "id": 0,
+                        "order": 0
+                    }
+                ],
+                "depth": -1,
+                "id": -1,
+                "order": -1
+            }
+        ],
+        "tidyTraceNodeCount": 13
+    },
+    "state_change": {
+        "stateChanges": []
+    }
+}

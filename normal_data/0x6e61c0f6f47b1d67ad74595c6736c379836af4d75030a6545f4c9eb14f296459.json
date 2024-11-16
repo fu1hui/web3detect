@@ -1,0 +1,210 @@
+{
+    "balance_change": {
+        "balanceChanges": []
+    },
+    "profile": {
+        "basic_info": {
+            "baseFee": "",
+            "blockNumber": 4687273,
+            "callData": "0x454a2ab300000000000000000000000000000000000000000000000000000000000119ce",
+            "debugEnable": true,
+            "errorInfo": "execution reverted",
+            "eventCount": 0,
+            "feeRecipient": "0xb2930b35844a230f00e51431acae96fe543a0347",
+            "formatValue": "0.05",
+            "gasLimit": 125815,
+            "gasPrice": "40",
+            "gasUsed": 22540,
+            "intTxnCount": 0,
+            "internalRevert": false,
+            "internalRevertMessage": "",
+            "isContractCreation": false,
+            "isFlashloan": false,
+            "maxFee": "",
+            "nonce": 1,
+            "overwritedBlockNumber": -1,
+            "priorityFee": "",
+            "receiver": "0xb1690c08e213a35ed9bab7b318de14420fb57d8c",
+            "revertMessage": "",
+            "sender": "0x8b5f326711a5e43f452115761ce0cccba6e856e2",
+            "simulationEnable": true,
+            "sourceTxnHash": "0x6e61c0f6f47b1d67ad74595c6736c379836af4d75030a6545f4c9eb14f296459",
+            "status": false,
+            "timestamp": "2017-12-06T21:27:17Z",
+            "transactionFee": "0.0009016",
+            "txnHash": "0x6e61c0f6f47b1d67ad74595c6736c379836af4d75030a6545f4c9eb14f296459",
+            "txnIndex": 125,
+            "type": 0,
+            "value": "50000000000000000"
+        },
+        "fund_flow": [],
+        "token_infos": [
+            {
+                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "decimals": 18
+            },
+            {
+                "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "decimals": 18
+            }
+        ]
+    },
+    "address_label": {
+        "labels": [
+            {
+                "address": "0x0000000000000000000000000000000000000001",
+                "label": "Precompiled"
+            },
+            {
+                "address": "0x0000000000000000000000000000000000000002",
+                "label": "Precompiled"
+            },
+            {
+                "address": "0x0000000000000000000000000000000000000003",
+                "label": "Precompiled"
+            },
+            {
+                "address": "0x0000000000000000000000000000000000000004",
+                "label": "Precompiled"
+            },
+            {
+                "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "label": "Ether"
+            },
+            {
+                "address": "0xb1690c08e213a35ed9bab7b318de14420fb57d8c",
+                "label": "SaleClockAuction"
+            }
+        ]
+    },
+    "trace": {
+        "accountLabels": null,
+        "dataMap": {
+            "-1": {
+                "invocation": {
+                    "address": "0x8b5f326711a5e43f452115761ce0cccba6e856e2",
+                    "callData": "",
+                    "decodedMethod": null,
+                    "errorInfo": "",
+                    "fromAddress": "",
+                    "gasUsed": 0,
+                    "id": -1,
+                    "methodDecoded": false,
+                    "operation": "",
+                    "output": "",
+                    "revert": false,
+                    "revertMessage": "",
+                    "selector": "",
+                    "status": false,
+                    "value": ""
+                },
+                "nodeType": 0
+            },
+            "0": {
+                "invocation": {
+                    "address": "0xb1690c08e213a35ed9bab7b318de14420fb57d8c",
+                    "callData": "0x00000000000000000000000000000000000000000000000000000000000119ce",
+                    "decodedMethod": {
+                        "callParams": [
+                            {
+                                "name": "_tokenId",
+                                "type": "uint256",
+                                "value": "72,142"
+                            }
+                        ],
+                        "constructorArguments": "",
+                        "name": "bid",
+                        "returnParams": [],
+                        "signature": "bid(uint256)"
+                    },
+                    "errorInfo": "execution reverted",
+                    "fromAddress": "0x8b5f326711a5e43f452115761ce0cccba6e856e2",
+                    "gasUsed": 22540,
+                    "id": 0,
+                    "methodDecoded": true,
+                    "operation": "CALL",
+                    "output": "",
+                    "revert": true,
+                    "revertMessage": "",
+                    "selector": "0x454a2ab3",
+                    "status": false,
+                    "value": "0.05"
+                },
+                "nodeType": 0
+            }
+        },
+        "gasFlame": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "depth": 0,
+                                "name": "Initial Gas",
+                                "value": 21592
+                            },
+                            {
+                                "children": [],
+                                "depth": 0,
+                                "name": "Executed Gas",
+                                "value": 948
+                            }
+                        ],
+                        "depth": -1,
+                        "name": "Actual Gas Used",
+                        "value": 22540
+                    },
+                    {
+                        "children": [],
+                        "depth": -1,
+                        "name": "Refunded Gas",
+                        "value": 0
+                    }
+                ],
+                "depth": -2,
+                "name": "Total Gas",
+                "value": 22540
+            }
+        ],
+        "isConfirmed": true,
+        "mainTrace": [
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "depth": 0,
+                        "id": 0,
+                        "order": 0
+                    }
+                ],
+                "depth": -1,
+                "id": -1,
+                "order": -1
+            }
+        ],
+        "mainTraceNodeCount": 1,
+        "parentIdMap": {
+            "0": -1
+        },
+        "tidyTrace": [
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "depth": 0,
+                        "id": 0,
+                        "order": 0
+                    }
+                ],
+                "depth": -1,
+                "id": -1,
+                "order": -1
+            }
+        ],
+        "tidyTraceNodeCount": 1
+    },
+    "state_change": {
+        "stateChanges": []
+    }
+}
