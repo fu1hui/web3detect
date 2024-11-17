@@ -70,5 +70,56 @@ def save_json(data, folder_name, json_filename):
         json.dump(data, json_file, indent=4, ensure_ascii=False)
 
 
+'''yzk start'''
+
+
+def json_largest_increase(jdata):  #extract the largest increase in amount
+    changed_accounts_list = jdata["balance_change"]
+    changed_accounts_list = changed_accounts_list["balanceChanges"]
+    laincre = -1  # largest increase
+    for account in changed_accounts_list:
+        assets = account["assets"]
+        for change in assets:
+            if change["sign"] == True and float(change["amount"].replace(',', '')) > laincre:
+                laincre = float(change["amount"].replace(',', ''))
+    return laincre
+
+
+def json_largest_decrease(jdata):  #extract the largest decrease in amount
+    lade = -1  #larget decrease
+    changed_accounts_list = jdata["balance_change"]
+    changed_accounts_list = changed_accounts_list["balanceChanges"]
+    for account in changed_accounts_list:
+        assets = account["assets"]
+        for change in assets:
+            if change["sign"] == False and float(change["amount"].replace(',', '')) > lade:
+                lade = float(change["amount"].replace(',', ''))
+    return lade
+
+
+def json_deepest_call(jdata):  #extract the largest depth of func call
+    gasflame = (jdata["trace"])["gasFlame"]  #root
+    root = treenode(gasflame[0])
+    return root.get_deepest()
+
+
+class treenode:
+    def __init__(self, node):
+        self.depth = node["depth"]
+        self.children = node["children"]  #type - list
+
+    def isleaf(self):
+        if len(self.children) == 0:
+            return True
+        return False
+
+    def get_deepest(self):
+        if self.isleaf() == True:
+            return self.depth
+        return max((treenode(child).get_deepest() for child in self.children))
+
+
+'''yzk end'''
+
 load_data_from_folder(attack_data_path, 'attack_json')
 load_data_from_folder(normal_data_path, 'normal_json')
