@@ -1,8 +1,3 @@
-"""
-2024.11.16
-writtrn by byh
-"""
-
 import json
 import os
 
