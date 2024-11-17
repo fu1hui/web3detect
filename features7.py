@@ -5,10 +5,6 @@ attack_data_path = './attack_data'
 normal_data_path = './normal_data'
 
 
-#####################################
-## 保存文件还没有写，先把你的数据处理写上 ##
-#####################################
-
 def load_data_from_folder(folder_path, folder_name):
     for filename in os.listdir(folder_path):
         if filename.endswith('.json'):
