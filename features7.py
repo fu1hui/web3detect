@@ -1,8 +1,10 @@
+"""
+2024.11.16
+writtrn by byh
+"""
+
 import json
 import os
-
-attack_data_path = './attack_data'
-normal_data_path = './normal_data'
 
 
 def load_data_from_folder(folder_path, folder_name):
@@ -16,10 +18,21 @@ def load_data_from_folder(folder_path, folder_name):
                     gas = get_gas_value(transaction_data)
                     res_dict['gas'] = gas
                     fc_num = function_count(transaction_data)
-                    res_dict['fc_num'] = fc_num
-                    # 你的函数和字典赋值
+                    res_dict['fcnum'] = fc_num
+                    lar_increase = json_largest_increase(transaction_data)
+                    res_dict['max'] = lar_increase
+                    lar_decrease = json_largest_decrease(transaction_data)
+                    res_dict['min'] = lar_decrease
+                    deepest_call = json_deepest_call(transaction_data)
+                    res_dict['depth'] = deepest_call
 
                     save_json(res_dict, folder_name, filename)
+
+
+def load_json(jpath):
+    with open(jpath, 'r') as jf:
+        jdata = json.load(jf)
+        return jdata
 
 
 def function_count(transaction_data):
@@ -75,6 +88,8 @@ def save_json(data, folder_name, json_filename):
 
 def json_largest_increase(jdata):  #extract the largest increase in amount
     changed_accounts_list = jdata["balance_change"]
+    if not "balanceChanges" in changed_accounts_list:
+        return -1
     changed_accounts_list = changed_accounts_list["balanceChanges"]
     laincre = -1  # largest increase
     for account in changed_accounts_list:
@@ -88,6 +103,8 @@ def json_largest_increase(jdata):  #extract the largest increase in amount
 def json_largest_decrease(jdata):  #extract the largest decrease in amount
     lade = -1  #larget decrease
     changed_accounts_list = jdata["balance_change"]
+    if not "balanceChanges" in changed_accounts_list:
+        return -1
     changed_accounts_list = changed_accounts_list["balanceChanges"]
     for account in changed_accounts_list:
         assets = account["assets"]
@@ -98,12 +115,15 @@ def json_largest_decrease(jdata):  #extract the largest decrease in amount
 
 
 def json_deepest_call(jdata):  #extract the largest depth of func call
-    gasflame = (jdata["trace"])["gasFlame"]  #root
-    root = treenode(gasflame[0])
+    try:
+        gasflame = (jdata["trace"])["gasFlame"]  #root
+    except:
+        return -1
+    root = TreeNode(gasflame[0])
     return root.get_deepest()
 
 
-class treenode:
+class TreeNode:
     def __init__(self, node):
         self.depth = node["depth"]
         self.children = node["children"]  #type - list
@@ -114,12 +134,15 @@ class treenode:
         return False
 
     def get_deepest(self):
-        if self.isleaf() == True:
+        if self.isleaf():
             return self.depth
-        return max((treenode(child).get_deepest() for child in self.children))
+        return max((TreeNode(child).get_deepest() for child in self.children))
 
 
 '''yzk end'''
 
-load_data_from_folder(attack_data_path, 'attack_json')
-load_data_from_folder(normal_data_path, 'normal_json')
+if __name__ == '__main__':
+    attack_data_path = './attack_data'
+    normal_data_path = './normal_data'
+    load_data_from_folder(attack_data_path, 'attack_json')
+    load_data_from_folder(normal_data_path, 'normal_json')
