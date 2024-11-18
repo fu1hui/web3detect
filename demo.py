@@ -8,7 +8,7 @@ import numpy as np
 from transformers import BertTokenizer
 from finetune import FineTuneModel
 
-tokenizer = BertTokenizer.from_pretrained('./bert-base-uncased')
+tokenizer = BertTokenizer.from_pretrained(r'.\bert-base-uncased')
 
 
 # 加载模型
@@ -83,8 +83,7 @@ class EVMTransactionDataset(Dataset):
 
         # 使用微调过的 BERT 模型获取嵌入
         with torch.no_grad():
-            bert_output = self.bert_model(input_ids=input_ids.unsqueeze(0), attention_mask=attention_mask.unsqueeze(0))
-            bert_embedding = bert_output.last_hidden_state.squeeze(0)[:, 0, :]  # 仅使用 [CLS] token 的嵌入
+            bert_embedding = self.bert_model.embeddings(input_ids=input_ids.unsqueeze(0), attention_mask=attention_mask.unsqueeze(0))
         bert_embedding = torch.tensor(bert_embedding, dtype=torch.long).to(self.device)
 
         return self.X_statistical[index], bert_embedding, self.y[index]

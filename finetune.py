@@ -12,7 +12,7 @@ from torch.utils.data import Dataset, DataLoader
 from transformers import BertTokenizer, BertModel
 
 # 鍔犺浇棰勫厛璁粌鐨? BERT 妯″瀷
-tokenizer = BertTokenizer.from_pretrained('./bert-base-uncased')
+tokenizer = BertTokenizer.from_pretrained(r'.\bert-base-uncased')
 
 # 瀹氫箟鏁版嵁闆?
 class EVMTransactionDataset(Dataset):
