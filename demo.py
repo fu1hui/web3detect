@@ -89,6 +89,7 @@ class EVMTransactionDataset(Dataset):
         return self.X_statistical[index], bert_embedding, self.y[index]
 
 
+# 分割数据集
 train_size = int(0.8 * len(X_statistical))
 X_statistical_train, X_statistical_test = X_statistical[:train_size], X_statistical[train_size:]
 X_embedding_train, X_embedding_test = X_embedding[:train_size], X_embedding[train_size:]
