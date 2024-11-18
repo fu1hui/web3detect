@@ -1,8 +1,8 @@
 import json
 import os
 
-attack_data_path = '../test_data'
-normal_data_path = '../test_normal_data'
+attack_data_path = './attack_data'
+normal_data_path = './normal_data'
 
 
 def load_data_from_folder(folder_path, save_dir):
@@ -46,5 +46,5 @@ def save_to_txt(filename, content, save_dir):
         f.write(content)
 
 
-load_data_from_folder(attack_data_path, '../test_data')
-load_data_from_folder(normal_data_path, '../test_normal_data')
+load_data_from_folder(attack_data_path, './processed_attack_data')
+load_data_from_folder(normal_data_path, './processed_normal_data')
