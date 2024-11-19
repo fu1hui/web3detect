@@ -86,7 +86,7 @@ class EVMTransactionDataset(Dataset):
             bert_embedding = self.bert_model.embeddings(input_ids=input_ids.unsqueeze(0), attention_mask=attention_mask.unsqueeze(0))
         bert_embedding = torch.tensor(bert_embedding, dtype=torch.long).to(self.device)
 
-        return self.X_statistical[index], bert_embedding, self.y[index]
+        return self.X_statistical[index].to(self.device), bert_embedding, self.y[index].to(self.device)
 
 
 # 分割数据集
@@ -97,7 +97,7 @@ y_train, y_test = y[:train_size], y[train_size:]
 
 
 # 创建数据集与加载器
-device = torch.device('cpu')
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 dataset_train = EVMTransactionDataset(X_statistical_train, X_embedding_train, y_train, bert_model, tokenizer, device)
 dataset_test = EVMTransactionDataset(X_statistical_test, X_embedding_test, y_test, bert_model, tokenizer, device)
 dataloader_train = DataLoader(dataset_train, batch_size=32, shuffle=True)
@@ -148,7 +148,7 @@ class ImprovedNet(nn.Module):
 
 
 # 模型初始化
-model = ImprovedNet()
+model = ImprovedNet().to(device)
 criterion = nn.BCELoss()  # 二分类交叉熵损失
 optimizer = optim.Adam(model.parameters(), lr=0.001)
 

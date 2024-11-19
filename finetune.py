@@ -109,7 +109,7 @@ def save_embeddings(embeddings, labels, filename):
     np.savez(filename, embeddings=embeddings, labels=labels)
     
 
-device = torch.device("cuda")
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 fine_tune_model = FineTuneModel().to(device)
 
 # 璁＄畻绫诲埆鏉冮噸
